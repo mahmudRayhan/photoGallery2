@@ -1,0 +1,7 @@
+@font-face{
+            font-family: BenSen;
+            src: url(BenSenHandwriting.ttf)format('truetype'),
+            url("BenSenHandwriting.eot") format("eot"),
+            url("BenSenHandwriting.svg") format("svg"),
+            url("BenSenHandwriting.woff") format("woff");
+       }

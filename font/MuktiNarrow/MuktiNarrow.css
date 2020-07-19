@@ -1,0 +1,7 @@
+@font-face{
+            font-family: MuktiNarrow;
+            src: url(MuktiNarrow.ttf)format('truetype'),
+            url("MuktiNarrow.eot") format("eot"),
+            url("MuktiNarrow.svg") format("svg"),
+            url("MuktiNarrow.woff") format("woff");
+       }

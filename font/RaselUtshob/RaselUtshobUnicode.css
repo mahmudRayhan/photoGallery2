@@ -1,0 +1,7 @@
+@font-face{
+            font-family: RaselUtshobUnicode;
+            src: url(RaselUtshob-Unicode.ttf)format('truetype'),
+            url("RaselUtshob-Unicode.eot") format("eot"),
+            url("RaselUtshob-Unicode.svg") format("svg"),
+            url("RaselUtshob-Unicode.woff") format("woff");
+       }

@@ -1,0 +1,7 @@
+@font-face{
+            font-family: Mitra;
+            src: url(Mitra.ttf)format('truetype'),
+            url("Mitra.eot") format("eot"),
+            url("Mitra.svg") format("svg"),
+            url("Mitra.woff") format("woff");
+       }
