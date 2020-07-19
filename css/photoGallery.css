@@ -58,13 +58,12 @@ p{
 	border: 1px solid #06425C;
 	background-color:#486B02;
 	display: inline-block;
-	width: 20%;
-	min-width: 125px;
+	width: 28%;
+	/*min-width: 125px;*/
 	height:175vh;
 	/*position: relative;*/
 	overflow: auto;
 	padding-top: 3.7rem;
-	margin-left: -14px;
 	/*visibility: auto;*/
 }
 
@@ -78,13 +77,14 @@ aside img{
 }
 .right{
 	
-	float:left;
+	float:right;
 	display: inline-block;
 	width:70%;
 	text-align: justify;
 	height:100vh;
 	margin:1%;
 	padding:1%;
+	/*visibility: auto;*/
 	
 }
 
