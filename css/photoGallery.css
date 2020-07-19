@@ -257,6 +257,92 @@ div.selectLanguage a:hover{
 
 
 
+#nav{
+	width: 100%;
+	/*background-color: #800000;*/
+}
+
+/* Navigation links */
+#nav a {
+	box-sizing: border-box;
+	background-color: #800000;
+	display: inline-block;
+	/*height:40px;*/
+  float: left;
+	vertical-align: middle;
+  /*padding-top: 10px;*/
+  color: white;
+  text-decoration: none;
+  /*font-size: 1.2rem;*/
+  /*width: 24.5%;*/
+   /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+  /*margin-left:2px;*/
+  /*margin-right: 2px; */
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius:10px;
+  border-radius: 10px;
+}
+
+
+
+#nav a {
+	
+	height:40px;
+  padding-top: 10px;
+  font-size: 1.2rem;
+  width: 49%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+  margin-left:2px;
+  margin-bottom:2px;
+  /*margin-right: 2px; */
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius:10px;
+  border-radius: 10px;
+}
+
+
+
+
+#nav:after{
+	content:""; 
+	clear:both;
+}
+
+#nav a:hover {
+  background-color:#A52A2A;
+}
+
+/*.navigationBar a.active {
+  background-color: #4CAF50;
+}*/
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
+
 
 @media screen and (min-width:768px){
 	
@@ -309,67 +395,26 @@ div.selectLanguage a:hover{
     /*.heading{
     	font-size: 25px;
     }*/
+	
 
+	#nav a {
+		
+		height:40px;
+	  padding-top: 10px;
+	  font-size: 1.2rem;
+	  width: 24.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+	  text-align: center; /* If you want the text to be centered */
+	  margin-left:2px;
+	  /*margin-right: 2px; */
+
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  -ms-border-radius: 10px;
+	  -o-border-radius:10px;
+	  border-radius: 10px;
+	}
 
   
 }
 
 
-#nav{
-	width: 100%;
-	/*background-color: #800000;*/
-}
-
-/* Navigation links */
-#nav a {
-	box-sizing: border-box;
-	background-color: #800000;
-	display: inline-block;
-	height:40px;
-  float: left;
-	vertical-align: middle;
-  padding-top: 10px;
-  color: white;
-  text-decoration: none;
-  font-size: 1.2rem;
-  width: 24.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-  text-align: center; /* If you want the text to be centered */
-  margin-left:2px;
-  /*margin-right: 2px; */
-
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius:10px;
-  border-radius: 10px;
-}
-
-#nav:after{
-	content:""; 
-	clear:both;
-}
-
-#nav a:hover {
-  background-color:#A52A2A;
-}
-
-/*.navigationBar a.active {
-  background-color: #4CAF50;
-}*/
-
-/* Page content */
-.content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
