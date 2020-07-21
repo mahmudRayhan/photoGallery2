@@ -259,6 +259,8 @@ div.selectLanguage a:hover{
 
 #nav{
 	width: 100%;
+	z-index: 200;
+	position: relative;
 	/*background-color: #800000;*/
 }
 
@@ -329,6 +331,8 @@ div.selectLanguage a:hover{
 
 
 
+
+
 @media screen and (min-width:768px){
 	
 	html{
@@ -368,7 +372,7 @@ div.selectLanguage a:hover{
 
 
     
-    .carousel-item {
+    /*.carousel-item {
       height: 250px;
       min-height: 150px;
       background: no-repeat center center scroll;
@@ -376,11 +380,10 @@ div.selectLanguage a:hover{
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-    }
-    /*.heading{
-    	font-size: 25px;
     }*/
-	
+
+    
+    
 
 	#nav a {
 		
