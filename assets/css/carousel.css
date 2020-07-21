@@ -149,9 +149,16 @@ Attribution required
       border-radius: 8px;
     }
 
+    div.carousel-item img {
+          margin-top:15px;
+          margin-bottom:15px;
+         /*min-height: 100px;*/
+          
+     }
 
 
-    @media (max-width: 768px){
+
+    @media (max-width: 576px){
 
         .carousel-control-prev,
           .carousel-control-next {
@@ -161,7 +168,7 @@ Attribution required
             z-index: 5;
             display: inline-block;
 
-            width: 15%;
+            width: 5%;
             height:10%;
             /* margin-top: -10px; remove */
             line-height: 2;
@@ -181,7 +188,8 @@ Attribution required
 
 
          div.carousel-item img {
-               height: 75px;
+               height: 80%;
+               width: 90%;
                margin-top:8px;
                margin-bottom:5px;
               /*min-height: 100px;*/
