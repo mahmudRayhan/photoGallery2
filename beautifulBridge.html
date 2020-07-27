@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Photo Gallery</title>
+
+	<!-- add icon link -->
+	<link rel="icon" href="image/titleGallery.png" type="image/icon type">
+	
+
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<!-- CSS only -->
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	
+	<!--Include Your Style Sheets next -->
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/carousel2.css">
+	<link rel="stylesheet" href="css/photoGallery.css">
+
+
+	<link rel="stylesheet" href="font/RaselUtshob/RaselUtshobUnicode.css">
+
+
+	<style>
+
+			.card-header{
+				background: rgba(0,0,255,.2);
+			}
+			#accordion img{
+				float:left;
+				margin: 1% 2%;
+				width:80%;
+				margin:5px 10%;
+			}
+
+				
+
+			@media screen and (min-width:768px){
+				.header-img2 {
+				  width: 100%;
+				  height: 200px;
+				  background: url('image/PhotoGallery50.jpg');
+				  background-size: cover;
+				  -webkit-border-radius: 10px;
+				  -moz-border-radius: 10px;
+				  -ms-border-radius: 10px;
+				  -o-border-radius: 10px;
+				  border-radius: 10px;
+				}
+
+				#accordion img{
+				width:80%;
+				}
+
+				.card-body img{
+				float:left;
+				margin: 5px 10px;
+				}
+			}
+			
+
+		</style>
+
+
+	
+
+</head>
+<body>
+
+	<div class="nav1">
+				<nav class="forBelowMd navbar navbar-expand-sm bg-dark navbar-dark">
+				
+				  <a class="navbar-brand" href="#">
+				      <img src="image/photoGalleryIcon.png" alt="Logo" style="width:35px;">
+				    </a>
+				  <a class="navbar-brand" href="#"><h1 class="navHeading">
+				    	 </h1></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav">
+				      <li class="nav-item">
+				        <a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
+				      </li>
+				
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+
+
+			<div class="forBelowMd header-img"></div>
+
+			<div class="forAboveMd header-img2"></div>
+
+
+			<div id="nav" lang="en">
+				<nav class="nav2 navigationBar">
+					<a href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+					<a href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+					<a href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+					<a href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
+				</nav>
+			</div>
+
+
+			<div class="content" style="clear:both;"></div>
+
+
+
+
+	<header>
+
+			
+
+
+	</header>
+
+	<ol class="breadcrumb">
+	    <li class="breadcrumb-item"> <a href="index.html">Home</a> </li>
+	    <li class="breadcrumb-item"> <a href="gallery.html">Gallery</a> </li>
+	    <li id="printTitle" class="breadcrumb-item active">World's Beautiful Bridge</li>
+	    
+	</ol>
+		
+	<main>
+
+				<!-- photo slider -->
+			        <div class="forBelowMd top-content no-gutters">
+			       	<div class="container-fluid">
+			        		<div id="carousel-example" class="carousel slide no-gutters" data-interval="false">
+			        			<div class=" photo-carrier carousel-inner row w-100 mx-auto" role="listbox">
+			            			<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3 active">
+			            				<a href="#goldenhead" id="golden-link">
+			            					<img src="image/bridge/goldenGate1.jpg" class="img-fluid mx-auto d-block" alt="img1">
+			            				</a>
+									</div>
+									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+										<a href="#charleshead" id="charles-link">
+											<img src="image/bridge/charles2.jpg" class="img-fluid mx-auto d-block" alt="img2">
+										</a>										
+									</div>
+									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+										<a href="#pontehead" id="ponte-link">
+											<img src="image/bridge/ponte3.jpg" class="img-fluid mx-auto d-block" alt="img3">
+										</a>
+									</div>
+									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+										<a href="#millauhead" id="millau-link">
+											<img src="image/bridge/millau4.jpg" class="img-fluid mx-auto d-block" alt="img4">
+										</a>
+									</div>
+									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+										<a href="#brooklynhead" id="brooklyn-link">
+											<img src="image/bridge/brooklyn5.jpg" class="img-fluid mx-auto d-block" alt="img5">
+										</a>
+									</div>
+									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+										<a href="#syndeyhead" id="syndey-link">
+											<img src="image/bridge/sydney6.jpg" class="img-fluid mx-auto d-block" alt="img6">
+										</a>
+									</div>
+									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+										<a href="#towerhead" id="tower-link">
+											<img src="image/bridge/tower7.jpg" class="img-fluid mx-auto d-block" alt="img7">
+										</a>
+									</div>
+			        			</div>
+			        			<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+			        		</div>
+			        	</div>
+			        </div>
+
+
+			        <div class=" forBelowMd container">
+			        	<div class="row text-center">
+			        		<div class="col" style="color:#a11010;font-size: 13px; font-family: courier"> Click on an Image !</div>
+			        	</div>
+			        </div>
+
+
+
+					<!-- Dropdown Langugae -->
+					
+
+					<div class="forBelowMd selectNav">
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    NavigationBar
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						
+						    <a class="dropdown-item hamburger" href="#"><span >HamburgerMenu</span ></a>
+						
+						    <a class="dropdown-item custom" href="#"><span>Custom</span ></a>
+						    <!-- <a class="dropdown-item" href="#"><span class="language" onclick="upDate(this)" lang="bn"></span></a> -->
+						  </div>
+						</div>
+					</div>
+
+			
+			
+
+			<aside class = "left forAboveMd">
+
+				<!-- <input  id="btnUp" class="arrow" type="image" src="upArrow4.png" />
+
+				<input id="btnDown" class="arrow" type="image" src="downArrow4.png" /> -->
+				<div class="text-center">
+					<button id="btnUp" class="button"><i class="fa fa-angle-up" ></i> </button>
+				</div>
+				<div>
+					<div style="color:#fff;font-size: 15px; padding-left:45px"> Click on an Image  !</div>
+				</div>
+
+				<div class="text-center">
+					<button id="btnDown" class="button"><i class="fas fa-angle-down" aria-hidden="true"></i> </button>
+				</div>
+
+
+
+			
+			<div id="theDiv">
+
+				<a href="#goldenhead" id="golden-link2">
+					<img src="image/bridge/goldenGate1.jpg" class="img-fluid d-block mx-auto " alt="img1">
+				</a>
+				<a href="#charleshead" id="charles-link2">
+					<img src="image/bridge/charles2.jpg" class="img-fluid mx-auto d-block" alt="img2">
+				</a>
+				<a href="#pontehead" id="ponte-link2">
+					<img src="image/bridge/ponte3.jpg" class="img-fluid mx-auto d-block" alt="img3">
+				</a>
+				<a href="#millauhead" id="millau-link2">
+					<img src="image/bridge/millau4.jpg" class="img-fluid mx-auto d-block" alt="img4">
+				</a>
+				<a href="#brooklynhead" id="brooklyn-link2">
+					<img src="image/bridge/brooklyn5.jpg" class="img-fluid mx-auto d-block" alt="img5">
+				</a>
+				<a href="#syndeyhead" id="syndey-link2">
+					<img src="image/bridge/sydney6.jpg" class="img-fluid mx-auto d-block" alt="img6">
+				</a>
+				<a href="#towerhead" id="tower-link2">
+					<img src="image/bridge/tower7.jpg" class="img-fluid mx-auto d-block" alt="img7">
+				</a>
+
+
+			
+				<!-- <a href="#"><img src="image/BirSrestho/goldenMohammad5.jpg" alt="golden Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/abdurcharles5.jpg" alt="golden Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/ponteRahman5.png" alt="golden Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/millauRahman5.png" alt="golden Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/mohuddinJahangir5.jpg" alt="golden Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/syndeyAmin5.jpg" alt="golden Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/towerKamal5.jpg" alt="golden Mohammad Picture"> </a> -->
+			</div>
+				
+			</aside>
+			
+			<section id="right" class = "right">
+
+				
+				
+
+
+				<div class="english">
+					<h2>The most beautiful bridges in the world</h2>
+					<p>
+					<span class="verdara" lang="en">Not all bridges are just a convenient construction to connect two points by spanning a river or valley. Some of them rank among the world’s most iconic sights and millions of tourist flock to see them every year. The following bridges are jewels of architecture and marvels of technology  that have become landmarks in their own right.
+					</span>
+
+					</p>
+
+				</div>
+
+
+
+
+				 <div class="row row-content">
+				     <div class="col-12">
+				            
+
+
+				             <div id="accordion">
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="brooklynhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#brooklyn">
+				                         BROOKLYN BRIDGE, NEW YORK CITY, USA
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="brooklyn" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/bridge/brooklyn5.jpg" alt="">
+				                             <p>
+				                               New York’s famous Brooklyn Bridge is a suspension bridge that connects the boroughs of Manhattan and Brooklyn by spanning the East River over a length of 486.3 m (1,596 ft). Construction of the bridge began in 1869 and was opened fourteen years later. The bridge is one of New York’s best free attractions and has a wide pedestrian walkway open to walkers and cyclists in its center above the automobile lanes. While walking from Brooklyn towards Manhattan, you will be overwhelmed by the skyline views unfolding in front of you.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="millauhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#millau">
+				                         MILLAU VIADUCT, FRANCE
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="millau" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/bridge/millau4.jpg" alt="">
+				                             <p>
+				                                The Millau Viaduct is part of the A75-A71 Freeway from Paris to Montpellier, and is located in the Aveyron départment in southern France. It is the highest bridge in the world, standing 270 meters (890 ft) over the Tarn River and is more than 340 meters (1,125 ft) in height at the top of its highest mast. It is slightly taller than the Eiffel Tower in Paris and only 38 meters (125 ft) shorter than the Empire State Building. It is a cable-stayed road bridge designed by engineer Michel Virlogeux and British architect Norman Foster.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+				                 
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="towerhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#tower">
+				                         TOWER BRIDGE LONDON, UK
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="tower" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/bridge/tower7.jpg" alt="">
+				                             <p>
+				                                Tower Bridge was built 120 years ago over the Thames to ease road traffic while maintaining river access to the London docks. Built with giant moveable roadways that lift up for passing ships, it is to this day considered an engineering marvel and one of London’s favorite icons. It is arguably one of the most instantly recognisable structures in the entire world. The bridge deck is freely accessible to both vehicles and pedestrians, whereas the bridge’s twin towers, high-level walkways and Victorian engine rooms form part of the Tower Bridge Exhibition, for which an admission charge is made.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="syndeyhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#syndey">
+				                         SYDNEY HARBOUR BRIDGE, AUSTRALIA
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="syndey" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/bridge/sydney6.jpg" alt="">
+				                             <p>
+				                                Sydney Harbour Bridge is the world’s tallest steel arch bridge, measuring 134 m (440 ft) from top to water level. In its beautiful harbour location, it has become a renowned international symbol of Australia. Its total length including approach spans is 1149 metres (3770 ft) and its arch span is 503 meters (1650 ft). The bridge – nicknamed “The Coathanger” because of its arch-based design – carries rail, vehicular, bicycle, and pedestrian traffic between Sydney’s central business district and the North Shore.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="pontehead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#ponte">
+				                         PONTE VECCHIO, FLORENCE, ITALY 
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="ponte" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/bridge/ponte3.jpg" alt="">
+				                             <p>
+				                                No visit to Florence is complete without at least some time spent dawdling on its medieval arch bridge, Ponte Vecchio, that spans the Arno river at its narrowest point. The bridge was first built in Roman times, but rebuilt in the 14th century after it was destroyed by a flood. During World War II it was the only bridge across the Arno that the fleeing Germans did not destroy. There have always been shops on Ponte Vecchio. Initially, these were butchers and fishmongers but it was later decided that only goldsmiths and jewellers be allowed to have their shops here.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="charleshead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#charles">
+				                         CHARLES BRIDGE, PRAGUE, CZECH REPUBLIC
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="charles" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/bridge/charles2.jpg" alt="">
+				                             <p>
+				                                Charles Bridge is a stone gothic bridge that crosses the Vltava river and connects Prague’s Old Town and Lesser Town (Malá Strana). The bridge is 621 metres (2,037 ft) long and nearly 10 metres (33 ft) wide, resting on 16 arches shielded by ice guards. The bridge is decorated by a continuous alley of 30 statues and statuaries, most of them baroque-style, originally erected around 1700 but now all replaced by replicas. From the bridge, visitors have a stunning panoramic view of the Prague Castle.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="goldenhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#golden">
+				                         GOLDEN GATE BRIDGE, SAN FRANCISCO, USA
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="golden" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/bridge/goldenGate1.jpg" alt="">
+				                             <p>
+				                               The iconic Golden Bridge, one of the most internationally recognized symbols of the USA, spans the channel between the Pacific Ocean and San Francisco Bay, linking the city of San Francisco with Marin County. It opened in 1937 and was, until 1964, the longest suspension bridge main span in the world, at  1,300 m (4,200 ft). The bridge was recently retrofitted, to better resist earthquakes given its proximity to the Ring of Fire. The bridge is popular with pedestrians and bicyclists, and has walkways and cycling paths on either side of the six vehicle traffic lanes.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+				             
+				             </div>
+				         
+				         
+				         
+				     </div>
+				</div>
+			
+	</section>
+
+
+</main>
+
+
+
+
+		<div style="clear:both"></div>
+
+	    <footer class="footer">
+	        <div class="container">
+	            <div class="row">             
+	        
+	                <div class="col-12">
+	                    <div class="text-center">
+	                    	
+	                        <a  class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-square fa-lg"></span>
+	                        </a>
+
+
+	                        <a class="mr-3" href="https://www.linkedin.com/in/mahmud-rayhan-4647821b1/">
+	                        	<span class="fab fa-linkedin fa-lg"></span>
+	                        </a>
+	                        
+	                        <a class="mr-3" href="mailto:1605035@ugrad.cse.buet.ac.bd"> <span class="fas fa-envelope fa-lg"></span> </a>
+
+	                        <a class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-messenger
+								fa-lg"></span>
+	                        </a>
+
+	                    </div>
+	                </div>
+	           </div>
+	           <div class="row justify-content-center">             
+	                <div class="col-auto">
+	                    <p>© Copyright 2020 Mahmud Rayhan</p>
+	                </div>
+	           </div>
+	        </div>
+	    </footer>
+
+
+
+	
+
+	<!-- JS, Popper.js, and jQuery -->
+	
+	<!-- 
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+
+
+			<script src="assets/js/jquery-3.3.1.min.js"></script>
+			<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+			<script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+			
+			<!-- my js file -->
+			<script src = "js/photoGallery.js"></script>
+	        
+	        <script src="assets/js/jquery.backstretch.min.js"></script>
+	        <script src="assets/js/wow.min.js"></script>
+	        <script src="assets/js/scripts.js"></script>
+
+
+	        <script>
+	        	
+	        	$('#golden-link').click(function(e) {
+	        	    $('#golden').collapse('hide');
+	        	    $('#golden').collapse('show');        
+	        	});
+	        	$('#charles-link').click(function(e) {
+	        	    $('#charles').collapse('hide');
+	        	    $('#charles').collapse('show');        
+	        	});
+	        	$('#millau-link').click(function(e) {
+	        	    $('#millau').collapse('hide');
+	        	    $('#millau').collapse('show');        
+	        	});
+	        	$('#ponte-link').click(function(e) {
+	        	    $('#ponte').collapse('hide');
+	        	    $('#ponte').collapse('show');        
+	        	});
+	        	$('#syndey-link').click(function(e) {
+	        	    $('#syndey').collapse('hide');
+	        	    $('#syndey').collapse('show');        
+	        	});
+	        	$('#brooklyn-link').click(function(e) {
+	        	    $('#brooklyn').collapse('hide');
+	        	    $('#brooklyn').collapse('show');        
+	        	});
+	        	$('#tower-link').click(function(e) {
+	        	    $('#tower').collapse('hide');
+	        	    $('#tower').collapse('show');        
+	        	});
+
+
+
+	        	// for vertical show
+
+	        	$('#golden-link2').click(function(e) {
+	        	    $('#golden').collapse('hide');
+	        	    $('#golden').collapse('show');        
+	        	});
+	        	$('#charles-link2').click(function(e) {
+	        	    $('#charles').collapse('hide');
+	        	    $('#charles').collapse('show');        
+	        	});
+	        	$('#millau-link2').click(function(e) {
+	        	    $('#millau').collapse('hide');
+	        	    $('#millau').collapse('show');        
+	        	});
+	        	$('#ponte-link2').click(function(e) {
+	        	    $('#ponte').collapse('hide');
+	        	    $('#ponte').collapse('show');        
+	        	});
+	        	$('#syndey-link2').click(function(e) {
+	        	    $('#syndey').collapse('hide');
+	        	    $('#syndey').collapse('show');        
+	        	});
+	        	$('#brooklyn-link2').click(function(e) {
+	        	    $('#brooklyn').collapse('hide');
+	        	    $('#brooklyn').collapse('show');        
+	        	});
+	        	$('#tower-link2').click(function(e) {
+	        	    $('#tower').collapse('hide');
+	        	    $('#tower').collapse('show');        
+	        	});
+
+	        </script>
+
+</body>
+</html>

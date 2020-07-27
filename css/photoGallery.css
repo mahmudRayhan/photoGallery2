@@ -9,16 +9,34 @@ body{
 */
 	margin: 1%;
 	padding: 1%;
-	background-color: rgba(0,0,255,.2);
+	background-color: rgba(0,0,255,.1);
 }
 
 .forAboveMd{
 	display: none;
 }
 
-.forBelowMd1{
+.nav1{
 	display: none;
+	margin:1px;
 }
+
+
+
+
+.breadcrumb{
+	margin: 5px 2px;
+	font-size: 1.2rem;
+}
+
+
+.points	{
+	font-weight: bold;
+	font-family: Candara;
+	font-size:1.3rem;
+}
+
+
 
 .header-img {
   width: 100%;
@@ -32,10 +50,10 @@ body{
   border-radius: 10px;
 }
 
-a{	
+/*a{	
 	color: #007efa;
 	font-size: 1.5rem;
-}
+}*/
 
 h1{
 	text-align: center;
@@ -64,8 +82,8 @@ p{
 	float:right;
 	display: inline-block;
 	width:95%;
-	text-align: justify;
-	height:100vh;
+	/*text-align: justify;*/
+	/*height:100vh;*/
 	margin:1%;
 	padding:1%;
 	/*visibility: auto;*/
@@ -199,9 +217,10 @@ ul.list1 li:before {
 
 }
 
-.english{
+.bengali{
 	display: none;
 }
+
 
 div.selectLanguage{
 	float: right;
@@ -222,6 +241,26 @@ div.selectLanguage a:hover{
 	background-color:#155bd4;
 }
 
+div.selectNav{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	font-size: 2rem;
+	display: inline-block;
+	position: unset;
+}
+
+div.selectNav a{
+	font-size: 1rem;
+	background-color:#add8e6;
+}
+
+div.selectNav a:hover{
+	background-color:#155bd4;
+}
+
+
+
 
 
 .raselUtshob{
@@ -241,56 +280,39 @@ div.selectLanguage a:hover{
 #nav{
 	width: 100%;
 	z-index: 200;
-	position: relative;
 	padding-top: 2px;
-	/*background-color: #800000;*/
 }
 
-/* Navigation links */
 #nav a {
 	box-sizing: border-box;
-	background-color: #800000;
+	background-color: #a11010;
 	display: inline-block;
-	/*height:40px;*/
-  float: left;
+  	float: left;
 	vertical-align: middle;
-  /*padding-top: 10px;*/
-  color: white;
-  text-decoration: none;
-  /*font-size: 1.2rem;*/
-  /*width: 24.5%;*/
-   /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-  text-align: center; /* If you want the text to be centered */
-  /*margin-left:2px;*/
-  /*margin-right: 2px; */
+   color: white;
+   text-decoration: none;
+   text-align: center;
 
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius:10px;
-  border-radius: 10px;
+   height:40px;
+   padding-top: 10px;
+   font-size: 1.2rem;
+   width: 49%; 
+   text-align: center;
+   margin-left:2px;
+   margin-bottom:2px;
+
+
+
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius:10px;
+   border-radius: 10px;
 }
 
-
-
-#nav a {
-	
-	height:40px;
-  padding-top: 10px;
-  font-size: 1.2rem;
-  width: 49%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-  text-align: center; /* If you want the text to be centered */
-  margin-left:2px;
-  margin-bottom:2px;
-  /*margin-right: 2px; */
-
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius:10px;
-  border-radius: 10px;
+#nav .active{
+	background-color: #520202;
 }
-
 
 
 
@@ -300,17 +322,45 @@ div.selectLanguage a:hover{
 }
 
 #nav a:hover {
-  background-color:#A52A2A;
+  background-color:#803030;
 }
 
-/*.navigationBar a.active {
-  background-color: #4CAF50;
+
+
+.footer{
+	background: #cce5ff;
+	margin:0 auto;
+	padding: 20px 0px;
+}
+
+
+.card-header a:before{
+	content: '';
+
+	display: inline-block;
+
+	height: 15px;
+
+	width: 15px;
+
+	 background-size: 15px;
+
+	background-image: url("../image/checkMarkGreen.png");
+
+	background-repeat: no-repeat;
+
+	margin-right: 5px;	
+}
+
+
+.breadcrumb{
+	background: #fff;
+}
+
+
+/*.gallery .card{
+	height:250px;
 }*/
-
-/* Page content */
-
-
-
 
 
 
@@ -318,10 +368,10 @@ div.selectLanguage a:hover{
 @media screen and (min-width:768px){
 	
 	html{
-	  font-size: 15px;
+	  font-size: 13px;
 	}
 
-	.forBelowMd1 , .forBelowMd2{
+	.forBelowMd{
 		display: none;
 	}
     /*header{
@@ -340,42 +390,29 @@ div.selectLanguage a:hover{
     	display: block;
     }
 
-    /*header h1{
-    	margin-top:20px;
-		font-size: 2.5em;
-    }*/
-
     h1{
     	
     	font-size: 2.5rem;
     }
 
-    
+    #nav{
+	   	width: 100%;
+	   	/*background-color: #800000;*/
+    }
 
 
-    
-    /*.carousel-item {
-      height: 250px;
-      min-height: 150px;
-      background: no-repeat center center scroll;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }*/
-
-    
-    
 
 	#nav a {
-		
-		height:40px;
+	  float:left;
+	  height:40px;
+	  display: block;
 	  padding-top: 10px;
 	  font-size: 1.2rem;
 	  width: 24.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
 	  text-align: center; /* If you want the text to be centered */
 	  margin-left:2px;
 	  /*margin-right: 2px; */
+
 
 	  -webkit-border-radius: 10px;
 	  -moz-border-radius: 10px;
@@ -385,6 +422,14 @@ div.selectLanguage a:hover{
 	}
 
 
+	#nav:after{
+		content:""; 
+		clear:both;
+	}
+
+	
+
+	
 	.content {
 	  padding: 16px;
 	}
@@ -405,32 +450,92 @@ div.selectLanguage a:hover{
 	.left{
 		float:left;
 		border: 1px solid #06425C;
-		background-color:#486B02;
+		background-color:#42664c;
 		display: inline-block;
-		width: 28%;
-		/*min-width: 125px;*/
-		height:175vh;
-		/*position: relative;*/
-		overflow: auto;
-		padding-top: 3.7rem;
+		width: 215px;
+		height:775px;
+		padding-bottom: .5rem;
 		/*visibility: auto;*/
+
+		
+		border: 1px solid #ddd;
+		position: relative;
 	}
+
+	#btnUp , #btnDown {
+	  /*display: inline-block;*/
+	  /*width:60px;*/
+	  border: none;
+	  color: white;
+	  margin:0 ;
+	  padding: 0;
+	  cursor: pointer;
+	  background-color: rgb(255,255,0,0);
+	  
+	}
+	i{
+		display: inline-block;
+		/*height: 30px;*/
+		font-size: 60px;
+	}
+
+	/*.arrow{
+		height: 65px;
+		width:100%;
+	}*/
+
+	#theDiv {
+		height: 625px;
+		overflow: hidden;
+	  
+	}
+
+
+	.left button{
+		width:100%;
+	}
+	
+	
+
+	  #btnUP{
+	  	display: block;
+	  	width:100%;
+	  	position:absolute;
+	  	top:0;
+	  	left:0;
+	  	
+	  }
+	  
+
+	  #btnDown{
+	  	display: block;
+	  	width:100%;
+		position: absolute;
+		bottom:0;
+		left: 0;
+		
+	  }
+
+	
+
 
 	aside img{
 		display:block;
-		width:85%;
-		margin:7%;
+		width:75%;
+		height: 150px;
+		margin:9%;
 		border:1px solid black;
 		margin:5% auto;
 		
 	}
+
 	.right{
 		
 		float:right;
 		display: inline-block;
-		width:70%;
+		width:68%;
 		text-align: justify;
-		height:100vh;
+		/*height:2vh;*/
 		margin:1%;
 		padding:1%;
 		/*visibility: auto;*/
@@ -443,9 +548,57 @@ div.selectLanguage a:hover{
 		clear:both;
 	}
 
+	div.selectNav{
+		display: none;
+	}
 
+
+	
+
+
+
+	
+	/*for stylying carousel*/
+	.carousel1 {
+	  height: 250px;
+	  min-height: 150px;
+	  background: no-repeat center center scroll;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+
+	#headerCarousel .carousel-indicators li {
+	  width: 10px;
+	  height: 10px;
+	  border-radius: 100%;
+	}
+
+	#accordion img{
+	width:25%;
+	}
+
+	.card-body img{
+	float:left;
+	margin: 5px 10px;
+	}
+
+	/*.gallery .card{
+		height:300px;
+	}
+*/
 
   
 }
+
+@media screen and (min-width:992px){
+	.right{
+		width:75%;
+	}
+}
+
+
+
 
 

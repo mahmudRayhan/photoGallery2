@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Photo Gallery</title>
+
+	<!-- add icon link -->
+	<link rel="icon" href="image/titleGallery.png" type="image/icon type">
+	
+	<!-- bootstrap 4.5 cdn  -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!-- my stylesheet -->
+	<link rel="stylesheet" href="css/photoGallery.css">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+	<!-- custom font -->
+	<link rel="stylesheet" href="font/RaselUtshob/RaselUtshobUnicode.css">
+	
+</head>
+<body>
+
+	
+		<div class="nav1">
+				<nav class="forBelowMd navbar navbar-expand-sm bg-dark navbar-dark">
+				
+				  <a class="navbar-brand" href="#">
+				      <img src="image/photoGalleryIcon.png" alt="Logo" style="width:35px;">
+				    </a>
+				  <a class="navbar-brand" href="#"><h1 class="navHeading">
+				    	 </h1></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav">
+				      <li class="nav-item">
+				        <a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link active" href="#"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
+				      </li>
+				
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+
+
+			<div class="forBelowMd header-img"></div>
+
+
+			<div class="forAboveMd">
+			<div id="headerCarousel" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#headerCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#headerCarousel" data-slide-to="1"></li>
+			    <li data-target="#headerCarousel" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      	<div class="carousel1" style="background-image: url('image/PhotoGallery32.jpg')"></div>
+			    </div>
+			    <div class="carousel-item">
+				    <div class="carousel1" style="background-image: url('image/PhotoGallery52.jpg')"></div>
+			    </div>
+			    <div class="carousel-item">
+			      	<div class="carousel1" style="background-image: url('image/PhotoGallery62.jpg')"></div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#headerCarousel" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#headerCarousel" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+
+
+
+			<div id="nav" lang="en">
+				<nav class="nav2 navigationBar">
+					<a href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+					<a href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+					<a href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+					<a href="#" class="active"><span class="fas fa-comments fa-lg"></span> Feedback</a>
+				</nav>
+			</div>
+
+
+			<div class="content" style="clear:both;"></div>
+
+
+
+
+
+		
+		
+	
+		<ol class="breadcrumb">
+		    <li class="breadcrumb-item"> <a href="index.html">Home</a> </li>
+		    <li class="breadcrumb-item"> feedback</li>
+		    
+		</ol>
+
+
+
+		<main>
+
+				<!-- Dropdown Langugae -->
+						<div class="selectLanguage dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Language
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+						    <a class="dropdown-item languageEnglish" lang="en" href="#right"><span >English</span ></a>
+
+						    <a class="dropdown-item languageBengali" lang="bn" href="#right"><span>বাংলা</span ></a>
+						    <!-- <a class="dropdown-item" href="#"><span class="language" onclick="upDate(this)" lang="bn"></span></a> -->
+						  </div>
+						</div>
+
+
+						<div class="forBelowMd selectNav">
+							<div class="dropdown">
+							  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    NavigationBar
+							  </button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							
+							    <a class="dropdown-item hamburger" href="#"><span >HamburgerMenu</span ></a>
+							
+							    <a class="dropdown-item custom" href="#"><span>Custom</span ></a>
+							    <!-- <a class="dropdown-item" href="#"><span class="language" onclick="upDate(this)" lang="bn"></span></a> -->
+							  </div>
+							</div>
+						</div>
+
+
+						<div style="clear:both"></div>
+
+
+						feedback is not ready fully.
+
+
+
+
+		</main>
+
+
+
+		<footer class="footer">
+	        <div class="container">
+	            <div class="row">             
+	        
+	                <div class="col-12">
+	                    <div class="text-center">
+	                    	
+	                        <a  class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-square fa-lg"></span>
+	                        </a>
+
+
+	                        <a class="mr-3" href="https://www.linkedin.com/in/mahmud-rayhan-4647821b1/">
+	                        	<span class="fab fa-linkedin fa-lg"></span>
+	                        </a>
+	                        
+	                        <a class="mr-3" href="mailto: 1605035@ugrad.cse.buet.ac.bd"> <span class="fas fa-envelope fa-lg"></span> </a>
+
+	                        <a class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-messenger
+								fa-lg"></span>
+	                        </a>
+
+	                    </div>
+	                </div>
+	           </div>
+	           <div class="row justify-content-center">             
+	                <div class="col-auto">
+	                    <p>© Copyright 2020 Mahmud Rayhan</p>
+	                </div>
+	           </div>
+	        </div>
+	    </footer>
+
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+	<script src = "js/photoGallery.js"></script>
+</body>
+</html>

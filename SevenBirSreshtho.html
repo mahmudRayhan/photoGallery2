@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Photo Gallery</title>
+
+	<!-- add icon link -->
+	<link rel="icon" href="image/titleGallery.png" type="image/icon type">
+	
+
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<!-- CSS only -->
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	
+	<!--Include Your Style Sheets next -->
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/carousel.css">
+	<link rel="stylesheet" href="css/photoGallery.css">
+
+
+	<link rel="stylesheet" href="font/RaselUtshob/RaselUtshobUnicode.css">
+
+
+	<style>
+
+		.card-header{
+			background: rgba(0,0,255,.2);
+		}
+		#accordion img{
+			float:left;
+			margin: 1% 2%;
+			width:40%;
+		}
+
+
+
+			
+
+		@media screen and (min-width:768px){
+			.header-img2 {
+			  width: 100%;
+			  height: 200px;
+			  background: url('image/PhotoGallery50.jpg');
+			  background-size: cover;
+			  -webkit-border-radius: 10px;
+			  -moz-border-radius: 10px;
+			  -ms-border-radius: 10px;
+			  -o-border-radius: 10px;
+			  border-radius: 10px;
+			}
+
+			#accordion img{
+			width:25%;
+			}
+
+			.card-body img{
+			float:left;
+			margin: 5px 10px;
+			}
+
+			#headerCarousel .img {
+			  width:100%;
+			  max-height: 200px;
+			}
+		}
+		
+
+	</style>
+
+
+	
+
+</head>
+<body>
+
+	<div class="nav1">
+				<nav class="forBelowMd navbar navbar-expand-sm bg-dark navbar-dark">
+				
+				  <a class="navbar-brand" href="#">
+				      <img src="image/photoGalleryIcon.png" alt="Logo" style="width:35px;">
+				    </a>
+				  <a class="navbar-brand" href="#"><h1 class="navHeading">
+				    	 </h1></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav">
+				      <li class="nav-item">
+				        <a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
+				      </li>
+				
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+
+
+			<div class="forBelowMd header-img"></div>
+
+			<div class="forAboveMd header-img2"></div>
+
+
+			<div id="nav" lang="en">
+				<nav class="nav2 navigationBar">
+					<a href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+					<a href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+					<a href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+					<a href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
+				</nav>
+			</div>
+
+
+			<div class="content" style="clear:both;"></div>
+
+
+
+
+	<header>
+
+			
+
+
+	</header>
+
+	<ol class="breadcrumb">
+	    <li class="breadcrumb-item"> <a href="index.html">Home</a> </li>
+	    <li class="breadcrumb-item"> <a href="gallery.html">Gallery</a> </li>
+	    <li id="printTitle" class="breadcrumb-item active">Heroes of Liberation War</li>
+	    
+	</ol>
+		
+	<main>
+
+				<!-- photo slider -->
+			        <div class="forBelowMd top-content no-gutters">
+			        	<div class="container-fluid">
+			        		<div id="carousel-example" class="carousel slide no-gutters" data-interval="false">
+			        			<div class=" photo-carrier carousel-inner row w-100 mx-auto" role="listbox">
+			            			<div class="carousel-item col-3 col-sm-3 col-md-3 col-lg-3 active">
+			            				<a href="#nurhead" id="nur-link">
+			            					<img src="image/BirSrestho/nurMohammad5.jpg" class="img-fluid mx-auto d-block" alt="img1">
+			            				</a>
+									</div>
+									<div class="carousel-item col-3 col-sm-3 col-md-3 col-lg-3">
+										<a href="#raufhead" id="rauf-link">
+											<img src="image/BirSrestho/abdurRauf5.jpg" class="img-fluid mx-auto d-block" alt="img2">
+										</a>										
+									</div>
+									<div class="carousel-item col-3 col-sm-3 col-md-3 col-lg-3">
+										<a href="#motiurhead" id="motiur-link">
+											<img src="image/BirSrestho/motiurRahman5.png" class="img-fluid mx-auto d-block" alt="img3">
+										</a>
+									</div>
+									<div class="carousel-item col-3 col-sm-3 col-md-3 col-lg-3">
+										<a href="#hamidurhead" id="hamidur-link">
+											<img src="image/BirSrestho/hamidurRahman5.png" class="img-fluid mx-auto d-block" alt="img4">
+										</a>
+									</div>
+									<div class="carousel-item col-3 col-sm-3 col-md-3 col-lg-3">
+										<a href="#mohiuddinhead" id="mohiuddin-link">
+											<img src="image/BirSrestho/mohuddinJahangir5.jpg" class="img-fluid mx-auto d-block" alt="img5">
+										</a>
+									</div>
+									<div class="carousel-item col-3 col-sm-3 col-md-3 col-lg-3">
+										<a href="#ruhulhead" id="ruhul-link">
+											<img src="image/BirSrestho/ruhulAmin5.jpg" class="img-fluid mx-auto d-block" alt="img6">
+										</a>
+									</div>
+									<div class="carousel-item col-3 col-sm-3 col-md-3 col-lg-3">
+										<a href="#mostofahead" id="mostofa-link">
+											<img src="image/BirSrestho/mostofaKamal5.jpg" class="img-fluid mx-auto d-block" alt="img7">
+										</a>
+									</div>
+			        			</div>
+			        			<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+			        		</div>
+			        	</div>
+			        </div>
+
+
+			        <div class=" forBelowMd container">
+			        	<div class="row text-center">
+			        		<div class="col" style="color:#a11010;font-size: 13px; font-family: courier"> Click on an Image !</div>
+			        	</div>
+			        </div>
+
+
+
+					<!-- Dropdown Langugae -->
+					
+
+					<div class="forBelowMd selectNav">
+						<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    NavigationBar
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						
+						    <a class="dropdown-item hamburger" href="#"><span >HamburgerMenu</span ></a>
+						
+						    <a class="dropdown-item custom" href="#"><span>Custom</span ></a>
+						    <!-- <a class="dropdown-item" href="#"><span class="language" onclick="upDate(this)" lang="bn"></span></a> -->
+						  </div>
+						</div>
+					</div>
+
+			
+			
+
+			<aside class = "left forAboveMd">
+
+				<!-- <input  id="btnUp" class="arrow" type="image" src="upArrow4.png" />
+
+				<input id="btnDown" class="arrow" type="image" src="downArrow4.png" /> -->
+				<div class="text-center">
+					<button id="btnUp" class="button"><i class="fa fa-angle-up" ></i> </button>
+				</div>
+				<div>
+					<div style="color:#fff;font-size: 15px; padding-left:45px"> Click on an Image  !</div>
+				</div>
+
+				<div class="text-center">
+					<button id="btnDown" class="button"><i class="fas fa-angle-down" aria-hidden="true"></i> </button>
+				</div>
+
+
+
+			
+			<div id="theDiv">
+
+				<a href="#nurhead" id="nur-link2">
+					<img src="image/BirSrestho/nurMohammad5.jpg" class="img-fluid d-block mx-auto " alt="img1">
+				</a>
+				<a href="#raufhead" id="rauf-link2">
+					<img src="image/BirSrestho/abdurRauf5.jpg" class="img-fluid mx-auto d-block" alt="img2">
+				</a>
+				<a href="#motiurhead" id="motiur-link2">
+					<img src="image/BirSrestho/motiurRahman5.png" class="img-fluid mx-auto d-block" alt="img3">
+				</a>
+				<a href="#hamidurhead" id="hamidur-link2">
+					<img src="image/BirSrestho/hamidurRahman5.png" class="img-fluid mx-auto d-block" alt="img4">
+				</a>
+				<a href="#mohiuddinhead" id="mohiuddin-link2">
+					<img src="image/BirSrestho/mohuddinJahangir5.jpg" class="img-fluid mx-auto d-block" alt="img5">
+				</a>
+				<a href="#ruhulhead" id="ruhul-link2">
+					<img src="image/BirSrestho/ruhulAmin5.jpg" class="img-fluid mx-auto d-block" alt="img6">
+				</a>
+				<a href="#mostofahead" id="mostofa-link2">
+					<img src="image/BirSrestho/mostofaKamal5.jpg" class="img-fluid mx-auto d-block" alt="img7">
+				</a>
+
+
+			
+				<!-- <a href="#"><img src="image/BirSrestho/nurMohammad5.jpg" alt="Nur Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/abdurRauf5.jpg" alt="Nur Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/motiurRahman5.png" alt="Nur Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/hamidurRahman5.png" alt="Nur Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/mohuddinJahangir5.jpg" alt="Nur Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/ruhulAmin5.jpg" alt="Nur Mohammad Picture"> </a>
+
+				<a href="#"><img src="image/BirSrestho/mostofaKamal5.jpg" alt="Nur Mohammad Picture"> </a> -->
+			</div>
+				
+			</aside>
+			
+			<section id="right" class = "right">
+
+				
+				
+				<div class="bengali">
+					<h2>বীর শ্রেষ্ঠ </h2>
+					<p>
+					<span class="kalpurush" lang="bn">বীর শ্রেষ্ঠ বীরত্বের জন্য প্রদত্ত বাংলাদেশের সর্বোচ্চ সামরিক পদক। যুদ্ধক্ষেত্রে অতুলনীয় সাহস ও আত্মত্যাগের নিদর্শন স্থাপনকারী যোদ্ধার স্বীকৃতিস্বরূপ এই পদক দেয়া হয়। বাংলাদেশের স্বাধীনতা যুদ্ধে শহীদ সাতজন মুক্তিযোদ্ধাকে এই পদক দেয়া হয়েছে ১৯৭৩ সালে ।বীরশ্রেষ্ঠদের নামঃ
+					</span>
+
+
+					</p>
+					
+					<ul class="list1 raselUtshob" lang="bn">
+						<li class="list_1_Items">মহিউদ্দিন জাহাঙ্গীর</li>
+						<li class="list_1_Items">হামিদুর রহমান</li>
+						<li class="list_1_Items">মোস্তফা কামাল</li>
+						<li class="list_1_Items">মোহাম্মদ রুহুল আমিন</li>
+						<li class="list_1_Items">মতিউর রহমান</li>
+						<li class="list_1_Items">মুন্সি আব্দুর রউফ</li>
+						<li class="list_1_Items">নূর মোহাম্মদ শেখ</li>
+					</ul>
+					
+				</div>
+
+
+				<div class="english">
+					<h2>Bir Sreshtho</h2>
+					<p>
+					<span class="verdara" lang="en">It is the highest military award of Bangladesh, similar to the American Medal of Honor or the British Victoria Cross. They are all considered 'Shaheed' (Martyrs).The award was published by the Bangladesh Gazette o.  It has only been given in 1973 to seven people. Listed below are the people who have received the Bir Srestho. 
+					</span>
+
+					</p>
+
+				</div>
+
+
+
+
+				 <div class="row row-content">
+				     <div class="col-12">
+				            
+
+
+				             <div id="accordion">
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="mohiuddinhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#mohiuddin">
+				                         Mohiuddin Jahangir
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="mohiuddin" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/BirSrestho/mohuddinJahangir5.jpg" alt="">
+				                             <p>
+				                                On 13 December Mohiuddin Jahangir divided his force into three groups in order to attack enemy camps at Chapai Nababganj and Rajshahi. One team, led by Lieutenant Rafiq, crossed Mohananda and proceeded towards Rohonpur-Nachole-Anupura and Nawabganj. The second team crossed the Mahananda River and marched towards the city. At this point Mohiuddin Jahangir failed to establish any advantage over the enemy, so he continued with his team and crossed Mahananda and camped at Rehaichar before dawn. He intended to destroy one of the light machine gun bunkers of the Pakistan Army and crawled towards it. He managed to get close to the bunker and threw a grenade, but was shot dead a bullet hit his forehead from another house roof. He was shot from a sniper rifle. He wore a green lungi & a gray genji & a gamcha around his wrist. Pakistani Soldiers didn't recognize him as an officer as he looked like an ordinary soldier. His code name was "Tiger". His fellow Comrades responded on the radio "Tiger is dead". He died at the battlefield in Rehaichar Moholla in Chapainawabganj town.[4] He was buried in Choto Shona Mosque premises at Mehdipur where most of his activities had taken place during the war. Later he was announced Bir Shrestho.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="hamidurhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#hamidur">
+				                         Hamidur Rahman
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="hamidur" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/BirSrestho/hamidurRahman5.png" alt="">
+				                             <p>
+				                                Rahman joined East Bengal Regiment on 2 February 1971 and participated in the 1971 Bangladesh Liberation War.[6] During the war he made a significant contribution in capturing the Dhalai Border Outpost at Srimangal. Though the independence fighters came very close to the Border Outpost, it became very difficult to capture owing to the enemy machine gun which was continuously firing from the south-western corner of the Dhalai Border Outpost.[citation needed] On 28 October 1971, a battle was taking place between 1st East Bengal Regiment and 30 A Frontier Force Regiment in Dhalai of Sylhet. 125 members of the East Bengal Regiment decided to use grenades on the machine gun posts of the Pakistani army. Rahman took the responsibility of throwing grenades, and crawled through the hilly canals. He managed to throw two grenades before he was shot.[7] Rahman jumped into the enemy machine gun post and engaged in hand-to-hand fighting with the two crews who were guarding the gun, and at one point neutralised the gun.[7] Realizing the fact that the machine gun outpost was damaged, the EBR's approach towards the enemy captured their first line within a short period of time. After the capture of the Dhalai Border Outpost, members of the EBR found the dead body of Rahman.[7] Rahman's efforts helped the East Bengal Regiment take the outpost. He was buried in Tripura in India.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+				                 
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="mostofahead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#mostofa">
+				                         Mostafa Kamal
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="mostofa" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/BirSrestho/mostofaKamal5.jpg" alt="">
+				                             <p>
+				                                On 16 April, Pakistan Army started to approach towards the Regiment camp. They were coming over the railway of the Comilla-Aakhaura root. The regiment also reconciled their position at Daruin. They settled on their trenches near a pond. Mostafa Kamal took the rightmost position.
+
+												On 17 April, Pakistanis opened fire. Major Shafayat Jamil strengthened his force by sending the 11th Platoon of company Delta to Daruin.[3] At around 12 pm, the Pakistanis attacked from West. Another part of the Pakistan Army attacked Mukti Bahini from behind. As a result,the Regiment decided to retreat from Daruin. Mostafa Kamal took the responsibility of covering for his fellow fighters.[4] Most of the fighters retreated to a safer position as Kamal relentlessly kept firing with his light machine gun. He kept on fighting until he ran out of bullets and was surrounded. He was bayoneted to death.[4] He, along with 20 to 40 other Mukti Bahini soldiers, was killed in this battle.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="ruhulhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#ruhul">
+				                         Mohammad Ruhul Amin
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="ruhul" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/BirSrestho/ruhulAmin5.jpg" alt="">
+				                             <p>
+				                                On 10 December, an accident occurred at the Rupsha river in Khulna.[5] Two of the warships of the Mukti Bahini named "Padma" and "Palash" mistakenly came under fire from the Indian Air Force as it crossed the river Rupsha near the Khulna shipyards. Earlier that day, Indian Air Force fired at different places of Khunla city. Incidentally one of those bombs had fallen at the warship "Palash". Ruhul Amin was working as an artificer of that ship. Both ships caught fire.[6] As a result of heavy bombing, the engine room in the warship caught fire and Ruhul Amin tried to extinguish it, ignoring orders to abandon the ship. A shell exploded which caused his death.[3] Another report suggest he swam ashore and was killed by Razakars.[4]
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="motiurhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#motiur">
+				                         Matiur Rahman 
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="motiur" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/BirSrestho/motiurRahman5.png" alt="">
+				                             <p>
+				                                Matiur Rahman was an instructor pilot at PAF Base Masroor in 1971.[4] He was planning to defect to India with a plane to join the Bangladesh Liberation War. On 20 August 1971, Pilot Officer Rashid Minhas was scheduled to fly with a Lockheed T-33 jet trainer. Rahman saw Minhas about to take off and asked to join him, he jumped into the instructor seat.[5] He attempted to hijack the T-33 in midair from Karachi, Pakistan to India to join the liberation movement. Minhas sent a message to control tower that he has been hijacked. Minhas wrestled with Rahman for control and crashed the plane in Pakistan's territory which caused the death of both pilots. The plane never crossed into India's airspace and crashed near the border but in Pakistan.[6]
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="raufhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#rauf">
+				                         Munshi Abdur Rouf
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="rauf" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/BirSrestho/abdurRauf5.jpg" alt="">
+				                             <p>
+				                                On 8 April 1971, the Pakistani Army attacked the Mukti Bahinis defensive position with 7 speed boats and 2 launches.[9] Their mission was to drive the Mukti Bahini away from the waterway of Rangamati and Mohalchari. Pakistani forces managed to disorient Mukti Bahini by coming closer to them and firing heavily. In the meantime Pakistanis surrounded the freedom fighters and managed to isolate nearly 100 of them. Rouf realised the threat to the entire company. So, he crawled forward to his trench and continuously fired towards the enemies with his automatic machine gun. As a result, the Pakistanis dragged their launches back to a safer place and resumed firing from there. Suddenly a mortar hit Rouf directly and he was immediately killed. Rouf's valiant effort helped his company to survive as his act saved nearly 150 soldiers of the Mukti Bahini on that day.
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+				                 <div class="card">
+				                     <div class="card-header" role="tab" id="nurhead">
+				                     <h4 class="mb-0">
+				                         <a class="optima"data-toggle="collapse" data-target="#nur">
+				                         Nur Mohammad Sheikh
+				                         </a>
+				                     </h4>
+				                     </div>
+				                     <div class="collapse" id="nur" data-parent="#accordion">
+				                         <div class="card-body">
+
+				                         	<img class="img-fluid img-thumbnail" src="image/BirSrestho/nurMohammad5.jpg" alt="">
+				                             <p>
+				                                On 5 September, Nur Mohammad was patrolling with 4 fellow soldiers. The Pakistan army managed to point out the position of Nur Mohammad's team and attacked them from three different sides. Nur Mohammad tried to retreat to his base while still engaging the Pakistani troops. Meanwhile, one of his fellow soldiers, Nannu Mia, was injured after a bullet hit him. Nur Mohammad tried to carry Nannu Mia towards safety while trying to fire his gun from different places as a trick to confuse the Pakistani troops into believing that there were more than four Bangladeshi rebels. In doing so, Nur Mohammad himself was hit by a mortar and his foot was destroyed. Even though he was seriously injured, Nur Mohammad decided to continue to provide cover fire for his team to escape. At the time, his fellow Sepoy Mostafa, urged Nur Mohammad to go with him. Mostafa even tried to force Nur Mohammad to go but Nur Mohammad refused to go and gave his light machine gun to Mostafa so that it would not be captured after his death. He kept a self loaded rifle with him and kept on fighting until he died.[3]
+				                             </p>
+				                         </div>
+				                     </div>
+				                 </div>
+
+				             
+				             </div>
+				         
+				         
+				         
+				     </div>
+				</div>
+			
+	</section>
+
+
+</main>
+
+
+
+
+		<div style="clear:both"></div>
+
+	    <footer class="footer">
+	        <div class="container">
+	            <div class="row">             
+	        
+	                <div class="col-12">
+	                    <div class="text-center">
+	                    	
+	                        <a  class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-square fa-lg"></span>
+	                        </a>
+
+
+	                        <a class="mr-3" href="https://www.linkedin.com/in/mahmud-rayhan-4647821b1/">
+	                        	<span class="fab fa-linkedin fa-lg"></span>
+	                        </a>
+	                        
+	                        <a class="mr-3" href="mailto:1605035@ugrad.cse.buet.ac.bd"> <span class="fas fa-envelope fa-lg"></span> </a>
+
+	                        <a class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-messenger
+								fa-lg"></span>
+	                        </a>
+
+	                    </div>
+	                </div>
+	           </div>
+	           <div class="row justify-content-center">             
+	                <div class="col-auto">
+	                    <p>© Copyright 2020 Mahmud Rayhan</p>
+	                </div>
+	           </div>
+	        </div>
+	    </footer>
+
+
+
+	
+
+	<!-- JS, Popper.js, and jQuery -->
+	
+	<!-- 
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+
+
+			<script src="assets/js/jquery-3.3.1.min.js"></script>
+			<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+			<script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+			
+			<!-- my js file -->
+			<script src = "js/photoGallery.js"></script>
+	        
+	        <script src="assets/js/jquery.backstretch.min.js"></script>
+	        <script src="assets/js/wow.min.js"></script>
+	        <script src="assets/js/scripts.js"></script>
+
+
+	        <script>
+	        	
+	        	$('#nur-link').click(function(e) {
+	        	    $('#nur').collapse('hide');
+	        	    $('#nur').collapse('show');        
+	        	});
+	        	$('#rauf-link').click(function(e) {
+	        	    $('#rauf').collapse('hide');
+	        	    $('#rauf').collapse('show');        
+	        	});
+	        	$('#hamidur-link').click(function(e) {
+	        	    $('#hamidur').collapse('hide');
+	        	    $('#hamidur').collapse('show');        
+	        	});
+	        	$('#motiur-link').click(function(e) {
+	        	    $('#motiur').collapse('hide');
+	        	    $('#motiur').collapse('show');        
+	        	});
+	        	$('#ruhul-link').click(function(e) {
+	        	    $('#ruhul').collapse('hide');
+	        	    $('#ruhul').collapse('show');        
+	        	});
+	        	$('#mohiuddin-link').click(function(e) {
+	        	    $('#mohiuddin').collapse('hide');
+	        	    $('#mohiuddin').collapse('show');        
+	        	});
+	        	$('#mostofa-link').click(function(e) {
+	        	    $('#mostofa').collapse('hide');
+	        	    $('#mostofa').collapse('show');        
+	        	});
+
+
+
+	        	// for vertical show
+
+	        	$('#nur-link2').click(function(e) {
+	        	    $('#nur').collapse('hide');
+	        	    $('#nur').collapse('show');        
+	        	});
+	        	$('#rauf-link2').click(function(e) {
+	        	    $('#rauf').collapse('hide');
+	        	    $('#rauf').collapse('show');        
+	        	});
+	        	$('#hamidur-link2').click(function(e) {
+	        	    $('#hamidur').collapse('hide');
+	        	    $('#hamidur').collapse('show');        
+	        	});
+	        	$('#motiur-link2').click(function(e) {
+	        	    $('#motiur').collapse('hide');
+	        	    $('#motiur').collapse('show');        
+	        	});
+	        	$('#ruhul-link2').click(function(e) {
+	        	    $('#ruhul').collapse('hide');
+	        	    $('#ruhul').collapse('show');        
+	        	});
+	        	$('#mohiuddin-link2').click(function(e) {
+	        	    $('#mohiuddin').collapse('hide');
+	        	    $('#mohiuddin').collapse('show');        
+	        	});
+	        	$('#mostofa-link2').click(function(e) {
+	        	    $('#mostofa').collapse('hide');
+	        	    $('#mostofa').collapse('show');        
+	        	});
+
+	        </script>
+
+</body>
+</html>

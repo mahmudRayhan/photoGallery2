@@ -157,23 +157,24 @@ Attribution required
      }
 
 
+     .carousel-control-prev,
+       .carousel-control-next {
+         /*margin-top: 5%;*/
+         z-index: 5;
+         /*display: inline-block;*/
+
+         width: 3%;
+         /*height:10%;*/
+         /* margin-top: -10px; remove */
+         /*line-height: 2;*/
+         font-family: serif;
+       }
+
+
 
     @media (max-width: 576px){
 
-        .carousel-control-prev,
-          .carousel-control-next {
-            position: absolute;
-            top: 55%;
-            margin-top: 5%;
-            z-index: 5;
-            display: inline-block;
-
-            width: 5%;
-            height:10%;
-            /* margin-top: -10px; remove */
-            line-height: 2;
-            font-family: serif;
-          }
+        
 
 
         .carousel-item {

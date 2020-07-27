@@ -1,0 +1,763 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Photo Gallery</title>
+		<!-- add icon link -->
+		<link rel="icon" href="image/titleGallery.png" type="image/icon type">
+		
+
+		<!-- Bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		<!-- CSS only -->
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		
+		<!--Include Your Style Sheets next -->
+		<link rel="stylesheet" href="fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="assets/css/carousel2.css">
+		<link rel="stylesheet" href="css/photoGallery.css">
+
+
+		<link rel="stylesheet" href="font/RaselUtshob/RaselUtshobUnicode.css">
+
+
+		<style>
+
+			.card-header{
+				background: rgba(0,0,255,.2);
+			}
+			#accordion img{
+				float:left;
+				margin: 1% 2%;
+				width:80%;
+				margin:5px 10%;
+			}
+
+				
+
+			@media screen and (min-width:768px){
+				.header-img2 {
+				  width: 100%;
+				  height: 200px;
+				  background: url('image/PhotoGallery50.jpg');
+				  background-size: cover;
+				  -webkit-border-radius: 10px;
+				  -moz-border-radius: 10px;
+				  -ms-border-radius: 10px;
+				  -o-border-radius: 10px;
+				  border-radius: 10px;
+				}
+
+				#accordion img{
+				width:80%;
+				}
+
+				.card-body img{
+				float:left;
+				margin: 5px 10px;
+				}
+			}
+			
+
+		</style>
+
+
+		
+
+	</head>
+	<body>
+
+		<div class="nav1">
+					<nav class="forBelowMd navbar navbar-expand-sm bg-dark navbar-dark">
+					
+					  <a class="navbar-brand" href="#">
+					      <img src="image/photoGalleryIcon.png" alt="Logo" style="width:35px;">
+					    </a>
+					  <a class="navbar-brand" href="#"><h1 class="navHeading">
+					    	 </h1></a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+					
+					  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+					    <ul class="navbar-nav">
+					      <li class="nav-item">
+					        <a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
+					      </li>
+					
+					    </ul>
+					  </div>
+					</nav>
+				</div>
+
+
+				<div class="forBelowMd header-img"></div>
+
+				<div class="forAboveMd header-img2"></div>
+
+
+				<div id="nav" lang="en">
+					<nav class="nav2 navigationBar">
+						<a href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+						<a href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+						<a href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+						<a href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
+					</nav>
+				</div>
+
+
+				<div class="content" style="clear:both;"></div>
+
+
+
+
+		<header>
+
+				
+
+
+		</header>
+
+		<ol class="breadcrumb">
+		    <li class="breadcrumb-item"> <a href="index.html">Home</a> </li>
+		    <li class="breadcrumb-item"> <a href="gallery.html">Gallery</a> </li>
+		    <li id="printTitle" class="breadcrumb-item active">World Mysterious Place</li>
+		    
+		</ol>
+			
+		<main>
+
+					<!-- photo slider -->
+				        <div class="forBelowMd top-content no-gutters">
+				        	<div class="container-fluid">
+				        		<div id="carousel-example" class="carousel slide no-gutters" data-interval="false">
+				        			<div class=" photo-carrier carousel-inner row w-100 mx-auto" role="listbox">
+            			            			            			<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3 active">
+            			            			            				<a href="#crookedhead" id="crooked-link">
+            			            			            					<img src="image/mystriousPlaces/crooked1.jpg" class="img-fluid mx-auto d-block" alt="img1">
+            			            			            				</a>
+            			            									</div>
+            			            									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+            			            										<a href="#banffhead" id="banff-link">
+            			            											<img src="image/mystriousPlaces/banffSpringsHotel1.jpg" class="img-fluid mx-auto d-block" alt="img2">
+            			            										</a>										
+            			            									</div>
+            			            									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+            			            										<a href="#flamehead" id="flame-link">
+            			            											<img src="image/mystriousPlaces/eternalFlames1.png" class="img-fluid mx-auto d-block" alt="img3">
+            			            										</a>
+            			            									</div>
+            			            									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+            			            										<a href="#uluruhead" id="uluru-link">
+            			            											<img src="image/mystriousPlaces/Uluru.jpg" class="img-fluid mx-auto d-block" alt="img4">
+            			            										</a>
+            			            									</div>
+            			            									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+            			            										<a href="#richathead" id="richat-link">
+            			            											<img src="image/mystriousPlaces/RichatStructure.jpg" class="img-fluid mx-auto d-block" alt="img5">
+            			            										</a>
+            			            									</div>
+            			            									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+            			            										<a href="#transilvaniahead" id="transilvania-link">
+            			            											<img src="image/mystriousPlaces/transilvania.jpg" class="img-fluid mx-auto d-block" alt="img6">
+            			            										</a>
+            			            									</div>
+            			            									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+            			            										<a href="#bhangarhhead" id="bhangarh-link">
+            			            											<img src="image/mystriousPlaces/bhangarh.png" class="img-fluid mx-auto d-block" alt="img7">
+            			            										</a>
+            			            									</div>
+            			            									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+            			            										<a href="#barmudahead" id="barmuda-link">
+            			            											<img src="image/mystriousPlaces/barmudaTriangle1.jpg" class="img-fluid mx-auto d-block" alt="img7">
+            			            										</a>
+            			            									</div>
+            			            									<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+            			            										<a href="#londonhead" id="london-link">
+            			            											<img src="image/mystriousPlaces/TowerOfLondon.jpg" class="img-fluid mx-auto d-block" alt="img7">
+            			            										</a>
+            			            									</div>
+				        			</div>
+				        			<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+				        		</div>
+				        	</div>
+				        </div>
+
+
+				        <div class=" forBelowMd container">
+				        	<div class="row text-center">
+				        		<div class="col" style="color:#a11010;font-size: 13px; font-family: courier"> Click on an Image !</div>
+				        	</div>
+				        </div>
+
+
+
+						<!-- Dropdown Langugae -->
+						
+
+
+						<div class="forBelowMd selectNav">
+							<div class="dropdown">
+							  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    NavigationBar
+							  </button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							
+							    <a class="dropdown-item hamburger" href="#"><span >HamburgerMenu</span ></a>
+							
+							    <a class="dropdown-item custom" href="#"><span>Custom</span ></a>
+							    <!-- <a class="dropdown-item" href="#"><span class="language" onclick="upDate(this)" lang="bn"></span></a> -->
+							  </div>
+							</div>
+						</div>
+
+				
+				
+
+				<aside class = "left forAboveMd">
+
+					<!-- <input  id="btnUp" class="arrow" type="image" src="upArrow4.png" />
+
+					<input id="btnDown" class="arrow" type="image" src="downArrow4.png" /> -->
+					<div class="text-center">
+						<button id="btnUp" class="button"><i class="fas fa-angle-up" ></i> </button>
+					</div>
+					<div>
+						<div style="color:#fff;font-size: 15px; padding-left:45px"> Click on an Image  !</div>
+					</div>
+
+					<div class="text-center">
+						<button id="btnDown" class="button"><i class="fa fa-angle-down" aria-hidden="true"></i> </button>
+					</div>
+
+
+
+				
+				<div id="theDiv">
+
+					<a href="#crookedhead" id="crooked-link2">
+						<img src="image/mystriousPlaces/crooked1.jpg" class="img-fluid d-block mx-auto " alt="img1">
+					</a>
+					<a href="#banffhead" id="banff-link2">
+						<img src="image/mystriousPlaces/banffSpringsHotel1.jpg" class="img-fluid mx-auto d-block" alt="img2">
+					</a>
+					<a href="#flamehead" id="flame-link2">
+						<img src="image/mystriousPlaces/eternalFlames1.png" class="img-fluid mx-auto d-block" alt="img3">
+					</a>
+					<a href="#uluruhead" id="uluru-link2">
+						<img src="image/mystriousPlaces/Uluru.jpg" class="img-fluid mx-auto d-block" alt="img4">
+					</a>
+					<a href="#richathead" id="richat-link2">
+						<img src="image/mystriousPlaces/RichatStructure.jpg" class="img-fluid mx-auto d-block" alt="img5">
+					</a>
+					<a href="#transilvaniahead" id="transilvania-link2">
+						<img src="image/mystriousPlaces/transilvania.jpg" class="img-fluid mx-auto d-block" alt="img6">
+					</a>
+					<a href="#bhangarhhead" id="bhangarh-link2">
+						<img src="image/mystriousPlaces/bhangarh.png" class="img-fluid mx-auto d-block" alt="img7">
+					</a>
+					<a href="#barmudahead" id="barmuda-link2">
+							<img src="image/mystriousPlaces/barmudaTriangle1.jpg" class="img-fluid mx-auto d-block" alt="img7">
+					</a>
+					<a href="#londonhead" id="london-link2">
+							<img src="image/mystriousPlaces/TowerOfLondon.jpg" class="img-fluid mx-auto d-block" alt="img7">
+					</a>
+					<!-- <a href="#mostofahead" id="mostofa-link2">
+						<img src="image/mystriousPlaces/barmudaTriangle1.jpg" class="img-fluid mx-auto d-block" alt="img7">
+					</a> -->
+					<!-- <a href="#mostofahead" id="mostofa-link2">
+						<img src="image/mystriousPlaces/Uluru.jpg" class="img-fluid mx-auto d-block" alt="img7">
+					</a> -->
+
+
+				
+					<!-- <a href="#"><img src="image/BirSrestho/nurMohammad5.jpg" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/abdurRauf5.jpg" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/motiurRahman5.png" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/hamidurRahman5.png" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/mohuddinJahangir5.jpg" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/ruhulAmin5.jpg" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/mostofaKamal5.jpg" alt="Nur Mohammad Picture"> </a> -->
+				</div>
+					
+				</aside>
+				
+				<section id="right" class = "right">
+
+					
+					
+					<!-- <div class="bengali">
+						<h2>বীর শ্রেষ্ঠ </h2>
+						<p>
+						<span class="kalpurush" lang="bn">বীর শ্রেষ্ঠ বীরত্বের জন্য প্রদত্ত বাংলাদেশের সর্বোচ্চ সামরিক পদক। যুদ্ধক্ষেত্রে অতুলনীয় সাহস ও আত্মত্যাগের নিদর্শন স্থাপনকারী যোদ্ধার স্বীকৃতিস্বরূপ এই পদক দেয়া হয়। বাংলাদেশের স্বাধীনতা যুদ্ধে শহীদ সাতজন মুক্তিযোদ্ধাকে এই পদক দেয়া হয়েছে ১৯৭৩ সালে ।বীরশ্রেষ্ঠদের নামঃ
+						</span>
+
+
+						</p>
+						
+						<ul class="list1 raselUtshob" lang="bn">
+							<li class="list_1_Items">মহিউদ্দিন জাহাঙ্গীর</li>
+							<li class="list_1_Items">হামিদুর রহমান</li>
+							<li class="list_1_Items">মোস্তফা কামাল</li>
+							<li class="list_1_Items">মোহাম্মদ রুহুল আমিন</li>
+							<li class="list_1_Items">মতিউর রহমান</li>
+							<li class="list_1_Items">মুন্সি আব্দুর রউফ</li>
+							<li class="list_1_Items">নূর মোহাম্মদ শেখ</li>
+						</ul>
+						
+					</div> -->
+
+
+					<div>
+						<h2>The most mysterious places in the world:</h2>
+						<p>
+						<span class="verdara" lang="en">If you’re into all things mystical, spooky, and mysterious, then you’ve landed in the right place. The world is filled to the brim with landmarks that remain unexplainable…to this day. Mystery enthusiasts: just like you, we’re all about indulging our weird and unusual interests, so we’ve created this bucket list of mysterious places that you absolutely need to visit!
+
+						</span>
+
+						</p>
+
+					</div>
+
+
+
+
+					 <div class="row row-content">
+					     <div class="col-12">
+
+					             <div id="accordion">
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="richathead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#richat">
+					                         Richat Structure, Mauritania
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="richat" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<img class="img-fluid img-thumbnail" src="image/mystriousPlaces/RichatStructure.jpg" alt="">
+					                             <p>
+					                                Seemingly swirling and spinning and twisting like a cyclone through the heart of the mighty Sahara Desert, the great Richat Structure in the depths of Mauritania is something truly mysterious (although you’ll certainly have to take to the skies to see it!). Scientists have puzzled for years as to how the perfect circular set of concentric rings got there.
+
+													Some think it was an asteroid impact in centuries gone by.
+
+													Others say it was the simple process of natural geological attrition and erosion.
+
+													And then – of course – there are some who think it was the creation of extra-terrestrials, who passed this way and marked a landing point for future visits to earth.
+
+
+					                             </p>
+					                         </div>
+					                     </div>
+					                 </div>
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="uluruhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#uluru">
+					                         Uluru, Australia
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="uluru" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<img class="img-fluid img-thumbnail" src="image/mystriousPlaces/Uluru.jpg" alt="">
+					                             <p>
+					                               Uluru is the mighty pillar at the middle of the Australian Outback.
+
+													It shoulders its way high above the flatlands that encompass it; a gargantuan block of sandstone rock that looks like the carapace of a petrified animal.
+
+													A truly breathtaking place to behold, it attracts everyone from hikers to history buffs (who come mainly for the pre-historic petroglyphs that mark the caves nearby). However, Ayers Rock, as the site is also called, also figures as a focal point for the old traditions of the Australian Aborigines.
+
+													They believe it’s one of the last remaining homes of the creator beings who forged the earth.
+
+													Meanwhile, other folk come here to energise themselves at the fluvial channels that run underneath the rock – whatever that means!
+
+
+
+					                             </p>
+					                         </div>
+					                     </div>
+					                 </div>
+					                 
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="bhangarhhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#bhangarh">
+					                         Bhangarh Fort, India
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="bhangarh" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<img class="img-fluid img-thumbnail" src="image/mystriousPlaces/bhangarh.png" alt="">
+					                             <p>
+					                                Enfolded by the rises of the Aravali Hills and baked by the Rajasthani sun, the old bulwarks of the Bhangarh Fort are said to echo with the ethereal presence of one cursed princess and her would-be captor, the wizard Sinhai.
+
+													It’s said that Sinhai tried to ensnare the young royal by offering her a love potion.
+
+													The plan backfired, the wizard ended up dead, but not before he could lay his hex on all the inhabitants of Bhangarh.
+
+													Today, the Mughlai complex once trodden by Madho Singh I is considered one of the most haunted spots in India.
+
+													No one is allowed to enter after dark, and locals have even reported deaths as a result of the continued curse!
+
+					                             </p>
+					                         </div>
+					                     </div>
+					                 </div>
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="transilvaniahead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#transilvania">
+					                         Transylvania, Romania
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="transilvania" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<img class="img-fluid img-thumbnail" src="image/mystriousPlaces/transilvania.jpg" alt="">
+					                             <p>
+					                               Sylvan hills and mist-topped mountains, the clanging echo of church bells and the stone-built medieval steeples of towns like Sibiu, Brasov and Cluj, all add to the eerie atmosphere of this vast region at the very heart of Romania.
+
+													But it’s one place that really brings the chills and gets the spine a-tingling: Bran Castle.
+
+													This turret-topped citadel soars from the forests on the edge of Wallachia in a medley of Gothic towers and gargoyle-peppered roofs.
+
+													Over the years it’s been associated with a number of less-than-savoury, uber-mysterious figures: Vlad the Impaler, the most bloodthirsty of the Wallachian kings, and – of course – Count Dracula, the archetype of the nail-biting Nosferatu.
+
+					                             </p>
+					                         </div>
+					                     </div>
+					                 </div>
+
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="flamehead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#flame">
+					                          Eternal Flame Falls, United States
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="flame" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<img class="img-fluid img-thumbnail" src="image/mystriousPlaces/eternalFlames1.png" alt="">
+					                             <p>
+					                                Delve into the winding walking trails that crisscross the Chestnut Ridge Park and discover the hidden wonder of Shale Creek.
+
+													Called, appropriately, Eternal Flame Falls, this curious natural phenomenon is a real mystery to behold.
+
+													Why? Well, because it manages to fuse two of the earth’s most elemental forces in one single spot – that’s why! You’ll first see the gorgeous falls themselves, cascading down over layers of chiselled granite rock.
+
+													Then comes the flame, which can be seen flickering behind the cataracts.
+
+													It never goes out, and scientists say the conflagration is created by the presence of natural gas seeping from the subterrane.
+
+					                             </p>
+					                         </div>
+					                     </div>
+					                 </div>
+
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="banffhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#banff">
+					                         The Banff Springs Hotel, Canada
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="banff" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<img class="img-fluid img-thumbnail" src="image/mystriousPlaces/banffSpringsHotel1.jpg" alt="">
+					                             <p>
+													With overtures of the Timberline Lodge of Stephen King and Stanley Kubrick’s The Shining fame, the Banff Springs Hotel of Canada is said to be the home of a plethora of ghost stories and mysterious happenings.
+
+													Locals tell tales of an entire family that was murdered in cold-blood in room 873. Others talk of reappearing doormen who vanish into thin air.
+
+													But if you think you can deal with the supernatural rep, then you’re in for a real treat here.
+
+													The handsome hotel oozes Scottish Baronial styles, is shrouded by the fir-dressed peaks of the Canadian Rockies, and offers access to the iconic ski fields of Jasper and Banff.
+
+					                             </p>
+					                         </div>
+					                     </div>
+					                 </div>
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="crookedhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#crooked">
+					                         Crooked Forest,Poland
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="crooked" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<img class="img-fluid img-thumbnail" src="image/mystriousPlaces/crooked1.jpg" alt="">
+					                             <p>
+					                                Just south of the unpronounceable city of Szczecin on Poland’s extreme eastern haunch, a stone’s throw west of the border with Germany, a small clutch of just over 400 pine trees has been garnering the attention of Atlas Obscura types and off-the-beaten-track travelers for years.
+
+													The entire forest appears to be bent over almost 90 degrees at the trunk, before twisting back straight again and growing vertically into the Slavic sky.
+
+													Debate has raged as to what caused the unusual wood to come to look like it has, with theories as wide ranging as torrential snowstorms and lumberjack growing techniques.
+
+					                             </p>
+					                         </div>
+					                     </div>
+					                 </div>
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="barmudahead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#barmuda">
+					                         	The Bermuda Triangle, Atlantic Ocean
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="barmuda" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<img class="img-fluid img-thumbnail" src="image/mystriousPlaces/barmudaTriangle1.jpg" alt="">
+					                             <p>
+					                                
+													Tales of lost mariners and disappeared ships, crashed aircraft and even vanishing humans, have been emerging from the waters of the Bermuda Triangle for centuries.
+
+													The vast area of more than half a million square miles is also known as the Devil’s Triangle, and theories as to why so many travelers fall foul of its clutches abound.
+
+													Some say there are magnetic anomalies that throw compasses off course, others that tropical cyclones are to blame, and some say there’s simply no mystery at all! Today, visiting the area can be much more pleasant than you might think, with the sun-splashed islands of Turks and Caicos beckoning in the south and the coves of Bermuda in the north.
+
+
+
+					                             </p>
+					                         </div>
+					                     </div>
+					                 </div>
+
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="londonhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#london">
+					                         	The Tower of London, England
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="london" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<img class="img-fluid img-thumbnail" src="image/mystriousPlaces/TowerOfLondon.jpg" alt="">
+					                             <p>
+					                                
+													beheading of kings, the incarceration of state enemies, the plotting of political machinations from the Tudors to the Elizabethans; all manner of dark and shady deeds has gone down between the crenulations of London’s old fortress on the north bank.
+
+													Stories of hauntings and mysterious happenings began with the sighting of Thomas Becket (a martyred saint), who is said to have stymied construction of the palace’s extension from the grave.
+
+													However, it’s the apparition of one Queen Anne Boleyn that causes the biggest stir – her headless body is seen lurking by the spot where she was killed at the behest of Henry VII back in the 1530s!
+
+
+
+
+					                             </p>
+					                         </div>
+					                     </div>
+					                 </div>
+
+					             
+					             </div>
+					         
+					         
+					         
+					     </div>
+					</div>
+				
+		</section>
+
+
+	</main>
+
+
+
+
+			<div style="clear:both"></div>
+
+		    <footer class="footer">
+		        <div class="container">
+		            <div class="row">             
+		        
+		                <div class="col-12">
+		                    <div class="text-center">
+		                    	
+		                        <a  class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+		                        	<span class="fab fa-facebook-square fa-lg"></span>
+		                        </a>
+
+
+		                        <a class="mr-3" href="https://www.linkedin.com/in/mahmud-rayhan-4647821b1/">
+		                        	<span class="fab fa-linkedin fa-lg"></span>
+		                        </a>
+		                        
+		                        <a class="mr-3" href="mailto:1605035@ugrad.cse.buet.ac.bd"> <span class="fas fa-envelope fa-lg"></span> </a>
+
+		                        <a class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+		                        	<span class="fab fa-facebook-messenger
+									fa-lg"></span>
+		                        </a>
+
+		                    </div>
+		                </div>
+		           </div>
+		           <div class="row justify-content-center">             
+		                <div class="col-auto">
+		                    <p>© Copyright 2020 Mahmud Rayhan</p>
+		                </div>
+		           </div>
+		        </div>
+		    </footer>
+
+
+
+		
+
+		<!-- JS, Popper.js, and jQuery -->
+		
+		<!-- 
+		
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+
+
+				<script src="assets/js/jquery-3.3.1.min.js"></script>
+				<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+				<script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+				
+				<!-- my js file -->
+				<script src = "js/photoGallery.js"></script>
+		        
+		        <script src="assets/js/jquery.backstretch.min.js"></script>
+		        <script src="assets/js/wow.min.js"></script>
+		        <script src="assets/js/scripts.js"></script>
+
+
+		        <script>
+		        	
+		        	$('#crooked-link').click(function(e) {
+		        	    $('#crooked').collapse('hide');
+		        	    $('#crooked').collapse('show');        
+		        	});
+		        	$('#banff-link').click(function(e) {
+		        	    $('#banff').collapse('hide');
+		        	    $('#banff').collapse('show');        
+		        	});
+		        	$('#uluru-link').click(function(e) {
+		        	    $('#uluru').collapse('hide');
+		        	    $('#uluru').collapse('show');        
+		        	});
+		        	$('#flame-link').click(function(e) {
+		        	    $('#flame').collapse('hide');
+		        	    $('#flame').collapse('show');        
+		        	});
+		        	$('#transilvania-link').click(function(e) {
+		        	    $('#transilvania').collapse('hide');
+		        	    $('#transilvania').collapse('show');        
+		        	});
+		        	$('#richat-link').click(function(e) {
+		        	    $('#richat').collapse('hide');
+		        	    $('#richat').collapse('show');        
+		        	});
+		        	$('#bhangarh-link').click(function(e) {
+		        	    $('#bhangarh').collapse('hide');
+		        	    $('#bhangarh').collapse('show');        
+		        	});
+		        	$('#london-link').click(function(e) {
+		        	    $('#london').collapse('hide');
+		        	    $('#london').collapse('show');        
+		        	});
+		        	$('#barmuda-link').click(function(e) {
+		        	    $('#barmuda').collapse('hide');
+		        	    $('#barmuda').collapse('show');        
+		        	});
+
+
+
+		        	// for vertical show
+
+		        	$('#crooked-link2').click(function(e) {
+		        	    $('#crooked').collapse('hide');
+		        	    $('#crooked').collapse('show');        
+		        	});
+		        	$('#banff-link2').click(function(e) {
+		        	    $('#banff').collapse('hide');
+		        	    $('#banff').collapse('show');        
+		        	});
+		        	$('#uluru-link2').click(function(e) {
+		        	    $('#uluru').collapse('hide');
+		        	    $('#uluru').collapse('show');        
+		        	});
+		        	$('#flame-link2').click(function(e) {
+		        	    $('#flame').collapse('hide');
+		        	    $('#flame').collapse('show');        
+		        	});
+		        	$('#transilvania-link2').click(function(e) {
+		        	    $('#transilvania').collapse('hide');
+		        	    $('#transilvania').collapse('show');        
+		        	});
+		        	$('#richat-link2').click(function(e) {
+		        	    $('#richat').collapse('hide');
+		        	    $('#richat').collapse('show');        
+		        	});
+		        	$('#bhangarh-link2').click(function(e) {
+		        	    $('#bhangarh').collapse('hide');
+		        	    $('#bhangarh').collapse('show');        
+		        	});
+		        	$('#london-link2').click(function(e) {
+		        	    $('#london').collapse('hide');
+		        	    $('#london').collapse('show');        
+		        	});
+		        	$('#barmuda-link2').click(function(e) {
+		        	    $('#barmuda').collapse('hide');
+		        	    $('#barmuda').collapse('show');        
+		        	});
+
+		        </script>
+
+	</body>
+	</html>

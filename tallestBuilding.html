@@ -1,0 +1,722 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Photo Gallery</title>
+		<!-- add icon link -->
+		<link rel="icon" href="image/titleGallery.png" type="image/icon type">
+		
+
+		<!-- Bootstrap -->
+		<!-- Latest compiled and minified CSS -->
+		<!-- CSS only -->
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		
+		<!--Include Your Style Sheets next -->
+		<link rel="stylesheet" href="fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="assets/css/carousel2.css">
+		<link rel="stylesheet" href="css/photoGallery.css">
+
+
+		<link rel="stylesheet" href="font/RaselUtshob/RaselUtshobUnicode.css">
+
+
+		<style>
+
+			.card-header{
+				background: rgba(0,0,255,.2);
+			}
+			#accordion img{
+				float:left;
+				margin: 1% 2%;
+				width:80%;
+				margin:5px 10%;
+			}
+
+				
+
+			@media screen and (min-width:768px){
+				.header-img2 {
+				  width: 100%;
+				  height: 200px;
+				  background: url('image/PhotoGallery50.jpg');
+				  background-size: cover;
+				  -webkit-border-radius: 10px;
+				  -moz-border-radius: 10px;
+				  -ms-border-radius: 10px;
+				  -o-border-radius: 10px;
+				  border-radius: 10px;
+				}
+
+				#accordion img{
+				width:80%;
+				}
+
+				.card-body img{
+				float:left;
+				margin: 5px 10px;
+				}
+			}
+			
+
+		</style>
+
+
+		
+
+	</head>
+	<body>
+
+		<div class="nav1">
+					<nav class="forBelowMd navbar navbar-expand-sm bg-dark navbar-dark">
+					
+					  <a class="navbar-brand" href="#">
+					      <img src="image/photoGalleryIcon.png" alt="Logo" style="width:35px;">
+					    </a>
+					  <a class="navbar-brand" href="#"><h1 class="navHeading">
+					    	 </h1></a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+					
+					  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+					    <ul class="navbar-nav">
+					      <li class="nav-item">
+					        <a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
+					      </li>
+					
+					    </ul>
+					  </div>
+					</nav>
+				</div>
+
+
+				<div class="forBelowMd header-img"></div>
+
+				<div class="forAboveMd header-img2"></div>
+
+
+				<div id="nav" lang="en">
+					<nav class="nav2 navigationBar">
+						<a href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+						<a href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+						<a href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
+						<a href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
+					</nav>
+				</div>
+
+
+
+
+				<div class="content" style="clear:both;"></div>
+
+
+
+
+		<header>
+
+				
+
+
+		</header>
+
+		<ol class="breadcrumb">
+		    <li class="breadcrumb-item"> <a href="index.html">Home</a> </li>
+		    <li class="breadcrumb-item"> <a href="gallery.html">Gallery</a> </li>
+		    <li id="printTitle" class="breadcrumb-item active">World's Tallest Building</li>
+		    
+		</ol>
+			
+		<main>
+
+					<!-- photo slider -->
+				        <div class="forBelowMd top-content no-gutters">
+				        	<div class="container-fluid">
+				        		<div id="carousel-example" class="carousel slide no-gutters" data-interval="false">
+				        			<div class=" photo-carrier carousel-inner row w-100 mx-auto" role="listbox">
+				            			<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3 active">
+				            				<a href="#burjhead" id="burj-link">
+				            					<img src="image/tallestBuilding/burjKhalifa.jpg" class="img-fluid mx-auto d-block" alt="img1">
+				            				</a>
+										</div>
+										<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+											<a href="#commerceCenterhead" id="commerceCenter-link">
+												<img src="image/tallestBuilding/commerceCenter.jpg" class="img-fluid mx-auto d-block" alt="img2">
+											</a>										
+										</div>
+										<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+											<a href="#guangzhouhead" id="guangzhou-link">
+												<img src="image/tallestBuilding/guangzhou.jpg" class="img-fluid mx-auto d-block" alt="img3">
+											</a>
+										</div>
+										<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+											<a href="#makkahRoyalhead" id="makkahRoyal-link">
+												<img src="image/tallestBuilding/makkahRoyal.jpg" class="img-fluid mx-auto d-block" alt="img4">
+											</a>
+										</div>
+										<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+											<a href="#lottehead" id="lotte-link">
+												<img src="image/tallestBuilding/lotteWorldTower.jpg" class="img-fluid mx-auto d-block" alt="img5">
+											</a>
+										</div>
+										<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+											<a href="#pinghead" id="ping-link">
+												<img src="image/tallestBuilding/pingAnFinance.jpg" class="img-fluid mx-auto d-block" alt="img6">
+											</a>
+										</div>
+										<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+											<a href="#shanghaihead" id="shanghai-link">
+												<img src="image/tallestBuilding/shanghaiTower.jpg" class="img-fluid mx-auto d-block" alt="img7">
+											</a>
+										</div>
+										<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+											<a href="#tainjinhead" id="tainjin-link">
+												<img src="image/tallestBuilding/tainjin.jpg" class="img-fluid mx-auto d-block" alt="img7">
+											</a>
+										</div>
+										<div class="carousel-item col-4 col-sm-4 col-md-3 col-lg-3">
+											<a href="#taipeihead" id="taipei-link">
+												<img src="image/tallestBuilding/taipei.jpg" class="img-fluid mx-auto d-block" alt="img7">
+											</a>
+										</div>
+
+				        			</div>
+				        			<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+				        		</div>
+				        	</div>
+				        </div>
+
+
+				        <div class=" forBelowMd container">
+				        	<div class="row text-center">
+				        		<div class="col" style="color:#a11010;font-size: 13px; font-family: courier"> Click on an Image !</div>
+				        	</div>
+				        </div>
+
+
+
+						<!-- Dropdown Langugae -->
+						
+
+
+						<div class="forBelowMd selectNav">
+							<div class="dropdown">
+							  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    NavigationBar
+							  </button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							
+							    <a class="dropdown-item hamburger" href="#"><span >HamburgerMenu</span ></a>
+							
+							    <a class="dropdown-item custom" href="#"><span>Custom</span ></a>
+							    <!-- <a class="dropdown-item" href="#"><span class="language" onclick="upDate(this)" lang="bn"></span></a> -->
+							  </div>
+							</div>
+						</div>
+
+				
+				
+
+				<aside class = "left forAboveMd">
+
+					<!-- <input  id="btnUp" class="arrow" type="image" src="upArrow4.png" />
+
+					<input id="btnDown" class="arrow" type="image" src="downArrow4.png" /> -->
+					<div class="text-center">
+						<button id="btnUp" class="button"><i class="fas fa-angle-up" ></i> </button>
+					</div>
+					<div>
+						<div style="color:#fff;font-size: 15px; padding-left:45px"> Click on an Image  !</div>
+					</div>
+
+					<div class="text-center">
+						<button id="btnDown" class="button"><i class="fa fa-angle-down" aria-hidden="true"></i> </button>
+					</div>
+
+
+
+				
+				<div id="theDiv">
+
+					<a href="#burjhead" id="burj-link2">
+						<img src="image/tallestBuilding/burjKhalifa.jpg" class="img-fluid d-block mx-auto " alt="img1">
+					</a>
+					<a href="#commerceCenterhead" id="commerceCenter-link2">
+						<img src="image/tallestBuilding/commerceCenter.jpg" class="img-fluid mx-auto d-block" alt="img2">
+					</a>
+					<a href="#guangzhouhead" id="guangzhou-link2">
+						<img src="image/tallestBuilding/guangzhou.jpg" class="img-fluid mx-auto d-block" alt="img3">
+					</a>
+					<a href="#makkahRoyalhead" id="makkahRoyal-link2">
+						<img src="image/tallestBuilding/makkahRoyal.jpg" class="img-fluid mx-auto d-block" alt="img4">
+					</a>
+					<a href="#lottehead" id="lotte-link2">
+						<img src="image/tallestBuilding/lotteWorldTower.jpg" class="img-fluid mx-auto d-block" alt="img5">
+					</a>
+					<a href="#pinghead" id="ping-link2">
+						<img src="image/tallestBuilding/pingAnFinance.jpg" class="img-fluid mx-auto d-block" alt="img6">
+					</a>
+					<a href="#shanghaihead" id="shanghai-link2">
+						<img src="image/tallestBuilding/shanghaiTower.jpg" class="img-fluid mx-auto d-block" alt="img7">
+					</a>
+					<a href="#tainjinhead" id="tainjin-link2">
+							<img src="image/tallestBuilding/tainjin.jpg" class="img-fluid mx-auto d-block" alt="img7">
+					</a>
+					<a href="#taipeihead" id="taipei-link2">
+							<img src="image/tallestBuilding/taipei.jpg" class="img-fluid mx-auto d-block" alt="img7">
+					</a>
+					<!-- <a href="#mostofahead" id="mostofa-link2">
+						<img src="image/mystriousPlaces/tainjinTriangle1.jpg" class="img-fluid mx-auto d-block" alt="img7">
+					</a> -->
+					<!-- <a href="#mostofahead" id="mostofa-link2">
+						<img src="image/mystriousPlaces/Uluru.jpg" class="img-fluid mx-auto d-block" alt="img7">
+					</a> -->
+
+
+				
+					<!-- <a href="#"><img src="image/BirSrestho/nurMohammad5.jpg" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/abdurRauf5.jpg" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/motiurRahman5.png" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/hamidurRahman5.png" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/mohuddinJahangir5.jpg" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/ruhulAmin5.jpg" alt="Nur Mohammad Picture"> </a>
+
+					<a href="#"><img src="image/BirSrestho/mostofaKamal5.jpg" alt="Nur Mohammad Picture"> </a> -->
+				</div>
+					
+				</aside>
+				
+				<section id="right" class = "right">
+
+					
+					
+					<!-- <div class="bengali">
+						<h2>বীর শ্রেষ্ঠ </h2>
+						<p>
+						<span class="kalpurush" lang="bn">বীর শ্রেষ্ঠ বীরত্বের জন্য প্রদত্ত বাংলাদেশের সর্বোচ্চ সামরিক পদক। যুদ্ধক্ষেত্রে অতুলনীয় সাহস ও আত্মত্যাগের নিদর্শন স্থাপনকারী যোদ্ধার স্বীকৃতিস্বরূপ এই পদক দেয়া হয়। বাংলাদেশের স্বাধীনতা যুদ্ধে শহীদ সাতজন মুক্তিযোদ্ধাকে এই পদক দেয়া হয়েছে ১৯৭৩ সালে ।বীরশ্রেষ্ঠদের নামঃ
+						</span>
+
+
+						</p>
+						
+						<ul class="list1 raselUtshob" lang="bn">
+							<li class="list_1_Items">মহিউদ্দিন জাহাঙ্গীর</li>
+							<li class="list_1_Items">হামিদুর রহমান</li>
+							<li class="list_1_Items">মোস্তফা কামাল</li>
+							<li class="list_1_Items">মোহাম্মদ রুহুল আমিন</li>
+							<li class="list_1_Items">মতিউর রহমান</li>
+							<li class="list_1_Items">মুন্সি আব্দুর রউফ</li>
+							<li class="list_1_Items">নূর মোহাম্মদ শেখ</li>
+						</ul>
+						
+					</div> -->
+
+
+					<div>
+						<h2>The tallest buildings in the world:</h2>
+
+					</div>
+
+
+
+
+					 <div class="row row-content">
+					     <div class="col-12">
+
+					             <div id="accordion">
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="lottehead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#lotte">
+					                         Lotte World Tower
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="lotte" data-parent="#accordion">
+					                         <div class="card-body">
+												<h4>Lotte World Tower:</h4>
+
+					                         	<img class="img-fluid img-thumbnail" src="image/tallestBuilding/lotteWorldTower.jpg" alt="">
+
+					                         	
+					                            
+												<span class="points">Height :</span>1819feet <br>
+												<span class="points">Floor :</span>123 <br>
+												<span class="points">Location :</span> Seoul, South Korea <br>
+												<span class="points">Comletion date :</span> 2017 <br>
+
+
+
+					                         </div>
+					                     </div>
+					                 </div>
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="makkahRoyalhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#makkahRoyal">
+					                         Makkah Royal Clock Tower
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="makkahRoyal" data-parent="#accordion">
+					                         <div class="card-body">
+												:
+												<h4>Makkah Royal Clock Tower:</h4>
+					                         	<img class="img-fluid img-thumbnail" src="image/tallestBuilding/makkahRoyal.jpg" alt="">
+					                             
+
+					                             <span class="points">Height :</span>1972 feet <br>
+					                             <span class="points">Floor :</span>120 <br>
+					                             <span class="points">Location :</span> Mecca, Saudi Arabia <br>
+					                             <span class="points">Comletion date :</span> 2012 <br>
+					                         </div>
+					                     </div>
+					                 </div>
+					                 
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="shanghaihead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#shanghai">
+					                          Shanghai Tower
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="shanghai" data-parent="#accordion">
+					                         <div class="card-body">
+					                         	<h4> Shanghai Tower:</h4>
+
+					                         	<img class="img-fluid img-thumbnail" src="image/tallestBuilding/shanghaiTower.jpg" alt="">
+					                             <span class="points">Height :</span>2073 feet <br>
+					                             <span class="points">Floor :</span>128 <br>
+					                             <span class="points">Location :</span> Shanghai, China<br>
+					                             <span class="points">Comletion date :</span> 2015 <br>
+					                         </div>
+					                     </div>
+					                 </div>
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="pinghead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#ping">
+					                         Ping An Finance Center
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="ping" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<h4>Ping An Finance Center:</h4>
+
+					                         	<img class="img-fluid img-thumbnail" src="image/tallestBuilding/pingAnFinance.jpg" alt="">
+					                             <span class="points">Height :</span> 1965 feet <br>
+					                             <span class="points">Floor :</span>115 <br>
+					                             <span class="points">Location :</span> Shenzhen, China<br>
+					                             <span class="points">Comletion date :</span> 2017 <br>
+					                         </div>
+					                     </div>
+					                 </div>
+
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="guangzhouhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#guangzhou">
+					                          Guangzhou CTF Finance Centre
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="guangzhou" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<h4>Guangzhou CTF Finance Centre:</h4>
+
+					                         	<img class="img-fluid img-thumbnail" src="image/tallestBuilding/guangzhou.jpg" alt="">
+					                             <span class="points">Height :</span> 1739 feet <br>
+					                             <span class="points">Floor :</span>111 <br>
+					                             <span class="points">Location :</span> Guangzhou, China<br>
+					                             <span class="points">Comletion date :</span> 2016 <br>
+					                         </div>
+					                     </div>
+					                 </div>
+
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="commerceCenterhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#commerceCenter">
+					                         International Commerce Centre
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="commerceCenter" data-parent="#accordion">
+					                         <div class="card-body">
+					                         	<h4>International Commerce Centre:</h4>
+
+					                         	<img class="img-fluid img-thumbnail" src="image/tallestBuilding/commerceCenter.jpg" alt="">
+					                             <span class="points">Height :</span> 1588 feet <br>
+					                             <span class="points">Floor :</span>108 <br>
+					                             <span class="points">Location :</span> Hong Kong, China<br>
+					                             <span class="points">Comletion date :</span> 2010 <br>
+					                         </div>
+					                     </div>
+					                 </div>
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="burjhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#burj">
+					                         Burj Khalifa
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="burj" data-parent="#accordion">
+					                         <div class="card-body">
+					                         	<h4>Burj Khalifa:</h4>
+
+					                         	<img class="img-fluid img-thumbnail" src="image/tallestBuilding/burjKhalifa.jpg" alt="">
+					                             <span class="points">Height :</span> 2716 feet <br>
+					                             <span class="points">Floor :</span>163 <br>
+					                             <span class="points">Location :</span> Dubai, UAE<br>
+					                             <span class="points">Comletion date :</span> 2010 <br>
+					                         </div>
+					                     </div>
+					                 </div>
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="tainjinhead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#tainjin">
+					                         	Tianjin CTF Finance Centre
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="tainjin" data-parent="#accordion">
+					                         <div class="card-body">
+
+					                         	<h4>Tianjin CTF Finance Centre:</h4>
+
+					                         	<img class="img-fluid img-thumbnail" src="image/tallestBuilding/tainjin.jpg" alt="">
+					                             <span class="points">Height :</span> 1739 feet <br>
+					                             <span class="points">Floor :</span>97 <br>
+					                             <span class="points">Location :</span> Tianjin, hina<br>
+					                             <span class="points">Comletion date :</span> 2019 <br>
+					                         </div>
+					                     </div>
+					                 </div>
+
+
+					                 <div class="card">
+					                     <div class="card-header" role="tab" id="taipeihead">
+					                     <h4 class="mb-0">
+					                         <a class="optima"data-toggle="collapse" data-target="#taipei">
+					                         	 TAIPEI 101
+					                         </a>
+					                     </h4>
+					                     </div>
+					                     <div class="collapse" id="taipei" data-parent="#accordion">
+					                         <div class="card-body">
+					                         	<h4> TAIPEI 101:</h4>
+
+					                         	<img class="img-fluid img-thumbnail" src="image/tallestBuilding/taipei.jpg" alt="">
+					                             <span class="points">Height :</span> 1667 feet <br>
+					                             <span class="points">Floor :</span>101 <br>
+					                             <span class="points">Location :</span> Taipei, TAiwan<br>
+					                             <span class="points">Comletion date :</span> 2004 <br>
+					                         </div>
+					                     </div>
+					                 </div>
+
+					             
+					             </div>
+					         
+					         
+					         
+					     </div>
+					</div>
+				
+		</section>
+
+
+	</main>
+
+
+
+
+			<div style="clear:both"></div>
+
+		    <footer class="footer">
+		        <div class="container">
+		            <div class="row">             
+		        
+		                <div class="col-12">
+		                    <div class="text-center">
+		                    	
+		                        <a  class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+		                        	<span class="fab fa-facebook-square fa-lg"></span>
+		                        </a>
+
+
+		                        <a class="mr-3" href="https://www.linkedin.com/in/mahmud-rayhan-4647821b1/">
+		                        	<span class="fab fa-linkedin fa-lg"></span>
+		                        </a>
+		                        
+		                        <a class="mr-3" href="mailto:1605035@ugrad.cse.buet.ac.bd"> <span class="fas fa-envelope fa-lg"></span> </a>
+
+		                        <a class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+		                        	<span class="fab fa-facebook-messenger
+									fa-lg"></span>
+		                        </a>
+
+		                    </div>
+		                </div>
+		           </div>
+		           <div class="row justify-content-center">             
+		                <div class="col-auto">
+		                    <p>© Copyright 2020 Mahmud Rayhan</p>
+		                </div>
+		           </div>
+		        </div>
+		    </footer>
+
+
+
+		    <!-- modals -->
+
+
+
+
+
+		
+
+		<!-- JS, Popper.js, and jQuery -->
+		
+		<!-- 
+		
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+
+
+				<script src="assets/js/jquery-3.3.1.min.js"></script>
+				<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+				<script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+				
+				<!-- my js file -->
+				<script src = "js/photoGallery.js"></script>
+		        
+		        <script src="assets/js/jquery.backstretch.min.js"></script>
+		        <script src="assets/js/wow.min.js"></script>
+		        <script src="assets/js/scripts.js"></script>
+
+
+		        <script>
+		        	
+		        	$('#burj-link').click(function(e) {
+		        	    $('#burj').collapse('hide');
+		        	    $('#burj').collapse('show');        
+		        	});
+		        	$('#commerceCenter-link').click(function(e) {
+		        	    $('#commerceCenter').collapse('hide');
+		        	    $('#commerceCenter').collapse('show');        
+		        	});
+		        	$('#makkahRoyal-link').click(function(e) {
+		        	    $('#makkahRoyal').collapse('hide');
+		        	    $('#makkahRoyal').collapse('show');        
+		        	});
+		        	$('#guangzhou-link').click(function(e) {
+		        	    $('#guangzhou').collapse('hide');
+		        	    $('#guangzhou').collapse('show');        
+		        	});
+		        	$('#ping-link').click(function(e) {
+		        	    $('#ping').collapse('hide');
+		        	    $('#ping').collapse('show');        
+		        	});
+		        	$('#lotte-link').click(function(e) {
+		        	    $('#lotte').collapse('hide');
+		        	    $('#lotte').collapse('show');        
+		        	});
+		        	$('#shanghai-link').click(function(e) {
+		        	    $('#shanghai').collapse('hide');
+		        	    $('#shanghai').collapse('show');        
+		        	});
+		        	$('#taipei-link').click(function(e) {
+		        	    $('#taipei').collapse('hide');
+		        	    $('#taipei').collapse('show');        
+		        	});
+		        	$('#tainjin-link').click(function(e) {
+		        	    $('#tainjin').collapse('hide');
+		        	    $('#tainjin').collapse('show');        
+		        	});
+
+
+
+		        	// for vertical show
+
+		        	$('#burj-link2').click(function(e) {
+		        	    $('#burj').collapse('hide');
+		        	    $('#burj').collapse('show');        
+		        	});
+		        	$('#commerceCenter-link2').click(function(e) {
+		        	    $('#commerceCenter').collapse('hide');
+		        	    $('#commerceCenter').collapse('show');        
+		        	});
+		        	$('#makkahRoyal-link2').click(function(e) {
+		        	    $('#makkahRoyal').collapse('hide');
+		        	    $('#makkahRoyal').collapse('show');        
+		        	});
+		        	$('#guangzhou-link2').click(function(e) {
+		        	    $('#guangzhou').collapse('hide');
+		        	    $('#guangzhou').collapse('show');        
+		        	});
+		        	$('#ping-link2').click(function(e) {
+		        	    $('#ping').collapse('hide');
+		        	    $('#ping').collapse('show');        
+		        	});
+		        	$('#lotte-link2').click(function(e) {
+		        	    $('#lotte').collapse('hide');
+		        	    $('#lotte').collapse('show');        
+		        	});
+		        	$('#shanghai-link2').click(function(e) {
+		        	    $('#shanghai').collapse('hide');
+		        	    $('#shanghai').collapse('show');        
+		        	});
+		        	$('#taipei-link2').click(function(e) {
+		        	    $('#taipei').collapse('hide');
+		        	    $('#taipei').collapse('show');        
+		        	});
+		        	$('#tainjin-link2').click(function(e) {
+		        	    $('#tainjin').collapse('hide');
+		        	    $('#tainjin').collapse('show');        
+		        	});
+
+		        </script>
+
+	</body>
+	</html>
