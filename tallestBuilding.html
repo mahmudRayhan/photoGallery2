@@ -94,8 +94,8 @@
 					        <a class="nav-link" href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
 					      </li>
 					      <li class="nav-item">
-					        <a class="nav-link" href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
-					      </li>
+				        <a class="nav-link" data-toggle="modal" data-target="#feedback"><span class="fas fa-comments fa-lg"></span> Feedback</a>
+				      </li>
 					
 					    </ul>
 					  </div>
@@ -113,14 +113,94 @@
 						<a href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
 						<a href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
 						<a href="aboutMe.html"><span class="fas fa-info fa-lg"></span> About Me</a>
-						<a href="feedback.html"><span class="fas fa-comments fa-lg	"></span> Feedback</a>
-					</nav>
-				</div>
+						<a data-toggle="modal" data-target="#feedback"><span class="fas fa-comments fa-lg"></span> Feedback</a>
+			</div>
+
+
+			<div class="content" style="clear:both;"></div>
+
+
+			<div id="feedback" class="modal fade" role="dialog">
+			    <div class="modal-dialog modal-lg" role="content">
+			        <!-- Modal content-->
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <h4 class="modal-title">Feedback</h4>
+			                <button type="button" class="close" data-dismiss="modal">&times;</button>
+			            </div>
+			            <div class="modal-body">
+			                <form>
+			           
+
+
+			                    <div class="form-group row">
+			                        <label for="firstname" class="col-md-2 col-form-label">Name</label>
+			                        <div class="col-md-5">
+			                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+			                        </div>
+			                    </div>
 
 
 
+			                    <div class="form-group row">
+			                        <label for="dateAndTime" class="col-12 col-md-2 col-form-label">Date</label>
+			                        <div class="col-12 col-md-5 mb-2">
+			                            <input placeholder="Date" class="form-control" type="text" onfocus="(this.type='date')" id="dateAndTime">
+			                        </div>
+			                        
+			                    </div>
 
-				<div class="content" style="clear:both;"></div>
+
+			                    <div class="form-group row">
+			                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+			                        <div class="col-md-10">
+			                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+			                        </div>
+			                    </div>
+
+
+			                    <div class="form-group row">
+			                        <div class="offset-md-2 col-md-10 ">
+			                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+
+
+			                        <button type="button" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary btn-sm ml-auto">Send Feedback</button>
+			                        </div>
+			                               
+			                    </div>
+			                </form>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel">Sorry</h5>
+			        <button type="button" required class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        Server Side Work is not done yet!! <br>
+			        if you want to send feed back through messenger click here  
+			        <a class="mr-3" href="https://m.me/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-messenger
+								fa-lg"></span>
+	                        </a>
+
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
 
 
 
@@ -586,7 +666,7 @@
 		                        
 		                        <a class="mr-3" href="mailto:1605035@ugrad.cse.buet.ac.bd"> <span class="fas fa-envelope fa-lg"></span> </a>
 
-		                        <a class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+		                        <a class="mr-3" href="https://m.me/mahmudrayhan.shajib">
 		                        	<span class="fab fa-facebook-messenger
 									fa-lg"></span>
 		                        </a>
