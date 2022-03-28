@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Photo Gallery</title>
+
+	<!-- add icon link -->
+	<link rel="icon" href="image/titleGallery.png" type="image/icon type">
+	
+	<!-- bootstrap 4.5 cdn  -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!-- my stylesheet -->
+	<link rel="stylesheet" href="css/photoGallery.css">
+	<link rel="stylesheet" href="css/aboutMe.css">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+	<!-- custom font -->
+	<link rel="stylesheet" href="font/RaselUtshob/RaselUtshobUnicode.css">
+	
+</head>
+<body>
+
+	
+		<div class="nav1">
+				<nav class="forBelowMd navbar navbar-expand-sm bg-dark navbar-dark">
+				
+				  <a class="navbar-brand" href="#">
+				      <img src="image/photoGalleryIcon.png" alt="Logo" style="width:35px;">
+				    </a>
+				  <a class="navbar-brand" href="#"><h1 class="navHeading">
+				    	 </h1></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav">
+				      
+				      <li class="nav-item">
+				        <a class="nav-link" href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link active" href="#"><span class="fas fa-info fa-lg"></span> About Me</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" data-toggle="modal" data-target="#feedback"><span class="fas fa-comments fa-lg"></span> Feedback</a>
+				      </li>
+				
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+
+
+			<div class="forBelowMd header-img"></div>
+
+
+			<div class="forAboveMd">
+			<div id="headerCarousel" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#headerCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#headerCarousel" data-slide-to="1"></li>
+			    <li data-target="#headerCarousel" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      	<div class="carousel1" style="background-image: url('image/PhotoGallery32.jpg')"></div>
+			    </div>
+			    <div class="carousel-item">
+				    <div class="carousel1" style="background-image: url('image/PhotoGallery52.jpg')"></div>
+			    </div>
+			    <div class="carousel-item">
+			      	<div class="carousel1" style="background-image: url('image/PhotoGallery62.jpg')"></div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#headerCarousel" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#headerCarousel" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+
+
+
+			<div id="nav" lang="en">
+				<nav class="nav2 navigationBar">
+					<a href="index.html"><span class="fa fa-home fa-lg"></span> Home</a>
+					<a href="gallery.html"><span class="fas fa-images fa-lg"></span> Gallery</a>
+					<a href="#" class = "active"><span class="fas fa-info fa-lg"></span> About Me</a>
+					<a data-toggle="modal" data-target="#feedback"><span class="fas fa-comments fa-lg"></span> Feedback</a>
+			</div>
+
+
+			<div class="content" style="clear:both;"></div>
+
+
+			<div id="feedback" class="modal fade" role="dialog">
+			    <div class="modal-dialog modal-lg" role="content">
+			        <!-- Modal content-->
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <h4 class="modal-title">Feedback</h4>
+			                <button type="button" class="close" data-dismiss="modal">&times;</button>
+			            </div>
+			            <div class="modal-body">
+			                <form>
+			           
+
+
+			                    <div class="form-group row">
+			                        <label for="firstname" class="col-md-2 col-form-label">Name</label>
+			                        <div class="col-md-5">
+			                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+			                        </div>
+			                    </div>
+
+
+
+			                    <div class="form-group row">
+			                        <label for="dateAndTime" class="col-12 col-md-2 col-form-label">Date</label>
+			                        <div class="col-12 col-md-5 mb-2">
+			                            <input placeholder="Date" class="form-control" type="text" onfocus="(this.type='date')" id="dateAndTime">
+			                        </div>
+			                        
+			                    </div>
+
+
+			                    <div class="form-group row">
+			                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+			                        <div class="col-md-10">
+			                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+			                        </div>
+			                    </div>
+
+
+			                    <div class="form-group row">
+			                        <div class="offset-md-2 col-md-10 ">
+			                        <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+
+
+			                        <button type="button" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary btn-sm ml-auto">Send Feedback</button>
+			                        </div>
+			                               
+			                    </div>
+			                </form>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel">Sorry</h5>
+			        <button type="button" required class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        Server Side Work is not done yet!! <br>
+			        if you want to send feed back through messenger click here  
+			        <a class="mr-3" href="https://m.me/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-messenger
+								fa-lg"></span>
+	                        </a>
+
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+
+
+		<ol class="breadcrumb">
+		    <li class="breadcrumb-item"> <a href="index.html">Home</a> </li>
+		    <li class="breadcrumb-item"> About Me</li>
+		    
+		</ol>
+
+		
+		
+	
+
+
+
+
+		<main>
+
+				<!-- Dropdown Langugae -->
+						<div class="selectLanguage dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Language
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+						    <a class="dropdown-item languageEnglish" lang="en" href="#right"><span >English</span ></a>
+
+						    <a class="dropdown-item languageBengali" lang="bn" href="#right"><span>বাংলা</span ></a>
+						    <!-- <a class="dropdown-item" href="#"><span class="language" onclick="upDate(this)" lang="bn"></span></a> -->
+						  </div>
+						</div>
+
+
+						<div class="forBelowMd selectNav">
+							<div class="dropdown">
+							  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    NavigationBar
+							  </button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							
+							    <a class="dropdown-item hamburger" href="#"><span >HamburgerMenu</span ></a>
+							
+							    <a class="dropdown-item custom" href="#"><span>Custom</span ></a>
+							    <!-- <a class="dropdown-item" href="#"><span class="language" onclick="upDate(this)" lang="bn"></span></a> -->
+							  </div>
+							</div>
+						</div>
+
+
+						<div style="clear:both"></div>
+
+						
+							<div class="row1">
+								<div class="column1" style="background-color:#aaa;">
+								  <img class="roundImage" src="image/shajib2.png">
+								  <br>
+								  <br>
+								  <h3>PROFILE</h3>
+								  <h4>I am CSE student, passionate about
+									technologies. I am very sincere to my
+									work and love to communicate with
+									people & learn new things.</h4>
+
+
+									<br>
+									<br>
+
+									<h3>CONTACT</h3>
+
+									<h4>EMAIL:
+										<br>
+										1605035@ugrad.cse.buet.ac.bd
+										<br><br>
+										Linked In:
+										<br>
+										linkedin.com/in/mahmud-rayhan-
+										4647821b1//
+										</h4>
+
+									<br><br>
+
+									<h3>Skill</h3>
+									<h4> <b>Programing Skill: </b> </h4>
+
+									<br>
+									<h4>
+										● C, C++
+										<br>
+										● Java, JavaScript
+										<br>
+										● C#
+										<br>
+										● ReactJS, Express, NodeJS,
+										MongoDB (MERN Stack)
+										<br>
+										● HTML, CSS, PHP
+										<br>
+										● Python
+										<br>
+										● PostgreSQL, NoSQL
+										</h4>
+
+										<br>
+										<br>
+										
+										<h4> <b>Documental Tool Skills: </b> </h4>
+
+										<br>
+									
+										<h4>
+											● LaTeX
+											<br>
+											● Microsoft PowerPoint
+											<br>
+											● Microsoft Excel
+											<br>
+											● Microsoft Word
+
+									
+									
+
+								</div>
+								<div class="column2" style="background-color:#bbb;">
+								  <h1 >Mahmud Rayhan</h1>
+								  <h3>An Enthusiastic Computer Science Engineering Student</h3>
+								  <hr>
+
+
+								  <table>
+									<thead>
+										<tr>
+											<th> <h3>Education:</h3> </th>
+											
+										</tr>
+									</thead>
+								
+									<tr>
+										
+										<td>
+											<h4>- Bangladesh University of Engineering and Technology (BUET)</h4>
+											<h5>- BSC in Computer Science and Engineering</h5>
+											<h5>- February 2017 - April 2022</h5>
+										
+										<br>
+										<br>
+
+										
+											<h4>- Dhaka Residential Model College</h4>
+											<h5>- Higher Secondary Certificate (HSC)</h5>
+											<h5>- June 2014 - April 2016</h5>
+										
+										<br>
+										<br>
+
+										<h4>- Shaheed Police Smrity School College</h4>
+										<h5>- Secondary School Certificate (SSC)</h5>
+										<h5>- January 2012 - February 2014</h5>
+									
+									<br>
+							
+										</td>
+
+									
+									</tr>
+									  
+								</table>
+
+
+								<br>
+								<br>
+								<br>
+
+								<table>
+									<thead>
+										<tr>
+											<th> <h3>Projects:</h3> </th>
+											
+										</tr>
+									</thead>
+								
+									<tr>
+										
+										<td>
+											<h4>1.Global News –(React, NodeJS, Mongo dB)</h4>
+											<h5>● A news website based on React.js (Front end) and Node.js(backend)</h5>
+											<h5>● Editor, subeditor, reporter can upload news and reader can read news and comment.</h5>
+										
+										<br>
+										<br>
+
+										
+										<h4>2.buy&sell.com- SQL</h4>
+										<h5>● operational database based on SQL</h5>
+										
+									<br>
+									<br>
+
+								
+										<h4>3.Live Cricket Scoreboard - Java, JavaFX</h4>
+										<h5>● Based on Java Networking.</h5>
+										<h5>● Client can see the updated score who is connected with server with a network</h5>
+										<h5>● Server will update the score of a match</h5>
+									<br>
+									<br>
+
+									
+										<h4>4.Photo Gallery- HTML, CSS, PHP</h4>
+										<h5>• Based on HTML, CSS and PHP</h5>
+										
+									<br>
+
+					
+									<br>
+							
+										</td>
+
+									
+									</tr>
+									  
+								</table>
+								  
+								</div>
+							  </div>
+							<!-- <img  class="aboutMeImage" src="image/Mahmud_Rayhan_cv.jpg" alt="Avatar"> -->
+						
+						
+
+
+
+
+		</main>
+
+
+
+		<footer class="footer">
+	        <div class="container">
+	            <div class="row">             
+	        
+	                <div class="col-12">
+	                    <div class="text-center">
+	                    	
+	                        <a  class="mr-3" href="https://www.facebook.com/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-square fa-lg"></span>
+	                        </a>
+
+
+	                        <a class="mr-3" href="https://www.linkedin.com/in/mahmud-rayhan-4647821b1/">
+	                        	<span class="fab fa-linkedin fa-lg"></span>
+	                        </a>
+	                        
+	                        <a class="mr-3" href="mailto: 1605035@ugrad.cse.buet.ac.bd"> <span class="fas fa-envelope fa-lg"></span> </a>
+
+	                        <a class="mr-3" href="https://m.me/mahmudrayhan.shajib">
+	                        	<span class="fab fa-facebook-messenger
+								fa-lg"></span>
+	                        </a>
+
+	                    </div>
+	                </div>
+	           </div>
+	           <div class="row justify-content-center">             
+	                <div class="col-auto">
+	                    <p>© Copyright 2020 Mahmud Rayhan</p>
+	                </div>
+	           </div>
+	        </div>
+	    </footer>
+
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+	<script src = "js/photoGallery.js"></script>
+</body>
+</html>
